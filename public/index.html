@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app="HomeAccountingFront">
+  <head>
+    <title>Dead simple skeleton</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/app.css">
+    <script src="/vendor.js"></script>
+    <script src="/app.js"></script>
+    <script>require("initialize")</script>
+  </head>
+  <body layout="column">
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <h2 class="md-title"><span>HomeAccounting</span></h2>
+      </div>
+    </md-toolbar>
+    <md-container flex layout="row">
+      <md-card flex="25">
+        <form ha-expenditure-editor ng-submit="haEE.save()">
+          <md-input-container>
+            <label>Desc</label>
+            <input ng-model="haEE.expenditure.form.data.attributes.desc">
+          </md-input-container>
+          <md-input-container>
+            <label>Amount</label>
+            <input ng-model="haEE.expenditure.form.data.attributes.amount">
+          </md-input-container>
+          <button type="submit" class="md-button md-primary md-raised">Save</button>
+        </form>
+      </md-card>
+      <md-card flex>
+        <md-toolbar class="md-table-toolbar md-default">
+          <div class="md-toolbar-tools"><span>Expenditures</span></div>
+        </md-toolbar>
+        <md-table-container ha-expenditure-list>
+          <table md-table>
+            <thead md-head>
+              <tr md-row>
+                <th md-column>Desc</th>
+                <th md-column>Amount</th>
+              </tr>
+            </thead>
+            <tbody md-body>
+              <tr md-row md-select="expenditure" ng-repeat="expenditure in haEL.expenditures track by expenditure.data.id">
+                <td md-cell ng-bind="expenditure.data.attributes.desc"></td>
+                <td md-cell><span ng-bind="expenditure.data.attributes.amount.currency"></span> <span ng-bind="expenditure.data.attributes.amount.value"></span></td>
+              </tr>
+            </tbody>
+          </table>
+        </md-table-container>
+      </md-card>
+    </md-container>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        <p>Brought to you by nicooga apps</p>
+      </div>
+    </md-toolbar>
+  </body>
+</html>

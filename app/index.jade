@@ -1,0 +1,53 @@
+doctype html
+html(ng-app="HomeAccountingFront")
+  head
+    title Dead simple skeleton
+    meta(charset='utf-8')
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" type="text/css" href="/app.css")
+    script(src="/vendor.js")
+    script(src="/app.js")
+    script.
+      require("initialize")
+  body(layout="column")
+    md-toolbar: .md-toolbar-tools
+      h2.md-title: span HomeAccounting
+
+    md-container(flex layout="row")
+      md-card(flex=25)
+        form(ha-expenditure-editor ng-submit="haEE.save()")
+          md-input-container
+            label Desc
+            input(ng-model="haEE.expenditure.form.data.attributes.desc")
+
+          md-input-container
+            label Amount
+            input(ng-model="haEE.expenditure.form.data.attributes.amount")
+
+          button.md-button.md-primary.md-raised(type="submit") Save
+
+      md-card(flex)
+        md-toolbar.md-table-toolbar.md-default
+          .md-toolbar-tools: span Expenditures
+
+        md-table-container(ha-expenditure-list)
+          table(md-table)
+            thead(md-head)
+              tr(md-row)
+                th(md-column) Desc
+                th(md-column) Amount
+
+            tbody(md-body)
+              tr(
+                md-row
+                md-select="expenditure"
+                ng-repeat="expenditure in haEL.expenditures track by expenditure.data.id"
+              )
+                td(md-cell ng-bind="expenditure.data.attributes.desc")
+                td(md-cell)
+                  span(ng-bind="expenditure.data.attributes.amount.currency")
+                  | 
+                  span(ng-bind="expenditure.data.attributes.amount.value")
+
+    md-toolbar: .md-toolbar-tools
+      p Brought to you by nicooga apps
