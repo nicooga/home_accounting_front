@@ -19,6 +19,7 @@ function directiveConstructor(Expenditure) {
 
     function initialize() {
       vm.expenditure = Expenditure.initialize();
+      vm.expenditure.form.data.attributes["expent-at"] = new Date();
     }
 
     function save() { vm.expenditure.form.save().then(initialize); }

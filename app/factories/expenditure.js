@@ -10,7 +10,8 @@ function factoryConfig($jsonapi) {
     type: "expenditure",
     attributes: {
       desc: { presence: true },
-      amount: { presence: true }
+      amount: { presence: true },
+      "expent-at": { presence: true }
     }
   };
 

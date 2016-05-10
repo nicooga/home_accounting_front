@@ -14,17 +14,25 @@ html(ng-app="HomeAccountingFront")
       h2.md-title: span HomeAccounting
 
     md-container(flex layout="row")
-      md-card(flex=25)
-        form(ha-expenditure-editor ng-submit="haEE.save()")
-          md-input-container
-            label Desc
-            input(ng-model="haEE.expenditure.form.data.attributes.desc")
+      div(flex=25 layout-padding)
+        div
+          form.md-inline-form(
+            ha-expenditure-editor
+            ng-submit="haEE.save()"
+            layout="column"
+          )
+            md-input-container.md-block
+              label Desc
+              input(ng-model="haEE.expenditure.form.data.attributes.desc")
 
-          md-input-container
-            label Amount
-            input(ng-model="haEE.expenditure.form.data.attributes.amount")
+            div(layout-gt-md="row")
+              md-input-container.md-block(flex-gt-md)
+                label Amount
+                input(ng-model="haEE.expenditure.form.data.attributes.amount")
 
-          button.md-button.md-primary.md-raised(type="submit") Save
+              md-datepicker(ng-model="haEE.expenditure.form.data.attributes['expent-at']")
+
+            button.md-button.md-primary.md-raised(type="submit") Save
 
       md-card(flex)
         md-toolbar.md-table-toolbar.md-default(ng-hide="haEL.selected.length")
@@ -43,6 +51,7 @@ html(ng-app="HomeAccountingFront")
               tr(md-row)
                 th(md-column) Desc
                 th(md-column) Amount
+                th(md-column) Date
 
             tbody(md-body)
               tr(
@@ -55,6 +64,7 @@ html(ng-app="HomeAccountingFront")
                   span(ng-bind="expenditure.data.attributes.amount.currency")
                   | 
                   span(ng-bind="expenditure.data.attributes.amount.value")
+                td(md-cell ng-bind="expenditure.data.attributes['expent-at']")
 
     md-toolbar: .md-toolbar-tools
       p Brought to you by nicooga apps

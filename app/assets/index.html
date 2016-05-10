@@ -16,19 +16,24 @@
       </div>
     </md-toolbar>
     <md-container flex layout="row">
-      <md-card flex="25">
-        <form ha-expenditure-editor ng-submit="haEE.save()">
-          <md-input-container>
-            <label>Desc</label>
-            <input ng-model="haEE.expenditure.form.data.attributes.desc">
-          </md-input-container>
-          <md-input-container>
-            <label>Amount</label>
-            <input ng-model="haEE.expenditure.form.data.attributes.amount">
-          </md-input-container>
-          <button type="submit" class="md-button md-primary md-raised">Save</button>
-        </form>
-      </md-card>
+      <div flex="25" layout-padding>
+        <div>
+          <form ha-expenditure-editor ng-submit="haEE.save()" layout="column" class="md-inline-form">
+            <md-input-container class="md-block">
+              <label>Desc</label>
+              <input ng-model="haEE.expenditure.form.data.attributes.desc">
+            </md-input-container>
+            <div layout-gt-md="row">
+              <md-input-container flex-gt-md class="md-block">
+                <label>Amount</label>
+                <input ng-model="haEE.expenditure.form.data.attributes.amount">
+              </md-input-container>
+              <md-datepicker ng-model="haEE.expenditure.form.data.attributes['expent-at']"></md-datepicker>
+            </div>
+            <button type="submit" class="md-button md-primary md-raised">Save</button>
+          </form>
+        </div>
+      </div>
       <md-card flex>
         <md-toolbar ng-hide="haEL.selected.length" class="md-table-toolbar md-default">
           <div class="md-toolbar-tools"><span>Expenditures</span></div>
@@ -46,12 +51,14 @@
               <tr md-row>
                 <th md-column>Desc</th>
                 <th md-column>Amount</th>
+                <th md-column>Date</th>
               </tr>
             </thead>
             <tbody md-body>
               <tr md-row ng-repeat="expenditure in haEL.expenditures track by expenditure.data.id" md-select="expenditure">
                 <td md-cell ng-bind="expenditure.data.attributes.desc"></td>
                 <td md-cell><span ng-bind="expenditure.data.attributes.amount.currency"></span> <span ng-bind="expenditure.data.attributes.amount.value"></span></td>
+                <td md-cell ng-bind="expenditure.data.attributes['expent-at']"></td>
               </tr>
             </tbody>
           </table>
