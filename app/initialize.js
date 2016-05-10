@@ -13,9 +13,6 @@ angular.module("HomeAccountingFront", [
   "angular-jsonapi-rest",
 ]);
 
-// Config
-require("config/material")
-
 // Factories
 require("factories/expenditure");
 
