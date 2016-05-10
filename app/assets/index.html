@@ -30,11 +30,18 @@
         </form>
       </md-card>
       <md-card flex>
-        <md-toolbar class="md-table-toolbar md-default">
+        <md-toolbar ng-hide="haEL.selected.length" class="md-table-toolbar md-default">
           <div class="md-toolbar-tools"><span>Expenditures</span></div>
         </md-toolbar>
+        <md-toolbar ng-show="haEL.selected.length" class="md-accent">
+          <div layout="row" class="md-toolbar-tools"><span>Expenditures</span><span flex></span>
+            <md-button ng-click="haEL.destroySelected()" class="md-icon-button">
+              <md-icon md-svg-icon="icons/ic_delete_black_24px.svg"></md-icon>
+            </md-button>
+          </div>
+        </md-toolbar>
         <md-table-container ha-expenditure-list>
-          <table md-table>
+          <table md-table ng-model="haEL.selected" md-row-select multiple="true">
             <thead md-head>
               <tr md-row>
                 <th md-column>Desc</th>
@@ -42,7 +49,7 @@
               </tr>
             </thead>
             <tbody md-body>
-              <tr md-row md-select="expenditure" ng-repeat="expenditure in haEL.expenditures track by expenditure.data.id">
+              <tr md-row ng-repeat="expenditure in haEL.expenditures track by expenditure.data.id" md-select="expenditure">
                 <td md-cell ng-bind="expenditure.data.attributes.desc"></td>
                 <td md-cell><span ng-bind="expenditure.data.attributes.amount.currency"></span> <span ng-bind="expenditure.data.attributes.amount.value"></span></td>
               </tr>

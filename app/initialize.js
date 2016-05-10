@@ -3,13 +3,18 @@
 require("angular");
 require("angular-material");
 require("angular-material-data-table");
+require("angular-aria");
 
 angular.module("HomeAccountingFront", [
+  "ngAria",
   "ngMaterial",
   "md.data.table",
   "angular-jsonapi",
-  "angular-jsonapi-rest"
+  "angular-jsonapi-rest",
 ]);
+
+// Config
+require("config/material")
 
 // Factories
 require("factories/expenditure");

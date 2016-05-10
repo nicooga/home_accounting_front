@@ -19,15 +19,8 @@ function directiveConstructor(Expenditure) {
 
     function initialize() {
       vm.expenditure = Expenditure.initialize();
-
-      angular.extend(vm.expenditure.form.data.attributes, {
-        desc: "Papa fritas",
-        amount: 22
-      });
     }
 
-    function save() {
-      vm.expenditure.form.save().then(initialize);
-    }
+    function save() { vm.expenditure.form.save().then(initialize); }
   }
 }
