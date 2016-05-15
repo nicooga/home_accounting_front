@@ -1,0 +1,31 @@
+
+<md-card>
+  <md-toolbar ng-hide="haEL.selected.length" class="md-table-toolbar md-default">
+    <div class="md-toolbar-tools"><span>Expenditures</span></div>
+  </md-toolbar>
+  <md-toolbar ng-show="haEL.selected.length" class="md-accent">
+    <div layout="row" class="md-toolbar-tools"><span>Expenditures</span><span flex="flex"></span>
+      <md-button ng-click="haEL.destroySelected()" class="md-icon-button">
+        <md-icon md-svg-icon="icons/ic_delete_black_24px.svg"></md-icon>
+      </md-button>
+    </div>
+  </md-toolbar>
+  <md-table-container>
+    <table md-table="md-table" md-row-select="" ng-model="haEL.selected" multiple="true">
+      <thead md-head="md-head">
+        <tr md-row="md-row">
+          <th md-column="md-column">Desc</th>
+          <th md-column="md-column">Amount</th>
+          <th md-column="md-column">Date</th>
+        </tr>
+      </thead>
+      <tbody md-body="md-body">
+        <tr md-row="md-row" ng-repeat="expenditure in haEL.expenditures track by expenditure.data.id" md-select="expenditure" ng-click="haEL.onSelect({ $expenditure: expenditure })">
+          <td md-cell="md-cell" ng-bind="expenditure.data.attributes.desc"></td>
+          <td md-cell="md-cell" ng-bind="expenditure.data.attributes.amount"></td>
+          <td md-cell="md-cell" ng-bind="expenditure.data.attributes['expent-at']"></td>
+        </tr>
+      </tbody>
+    </table>
+  </md-table-container>
+</md-card>

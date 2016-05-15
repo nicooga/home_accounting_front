@@ -17,5 +17,6 @@ angular.module("HomeAccountingFront", [
 require("factories/expenditure");
 
 // Directives
+require("directives/expenditures/manager");
 require("directives/expenditures/list");
 require("directives/expenditures/editor");

@@ -9,9 +9,9 @@ function factoryConfig($jsonapi) {
   var schema = {
     type: "expenditure",
     attributes: {
-      desc: { presence: true },
-      amount: { presence: true },
-      "expent-at": { presence: true }
+      desc: [],
+      amount: [],
+      "expent-at": []
     }
   };
 
@@ -24,5 +24,13 @@ function factoryConfig($jsonapi) {
 }
 
 function factoryConstructor($jsonapi) {
-  return $jsonapi.getResource("expenditure");
+  var resource = $jsonapi.getResource("expenditure");
+
+  resource.initialize = function() {
+    var res = this.__proto__.initialize.apply(this);
+    res.form.data.attributes["expent-at"] = new Date();
+    return res;
+  }
+
+  return resource;
 }

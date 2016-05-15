@@ -7,7 +7,10 @@ angular
 function directiveConstructor(Expenditure) {
   return {
     controller: controller,
-    controllerAs: "haEL"
+    controllerAs: "haEL",
+    templateUrl: "/templates/expenditures/list.html",
+    replace: true,
+    bindToController: { onSelect: "&?" }
   };
 
   function controller($scope) {

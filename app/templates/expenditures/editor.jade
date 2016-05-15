@@ -1,0 +1,25 @@
+md-card
+  form.md-inline-form(
+    ng-submit="haEE.save()"
+    layout="column"
+  )
+    md-content(layout-padding): div
+      md-datepicker(ng-model="haEE.expenditure.form.data.attributes['expent-at']")
+
+      md-input-container.md-block
+        label Desc
+        input(ng-model="haEE.expenditure.form.data.attributes.desc")
+
+      md-input-container.md-block
+        label Amount
+        input(ng-model="haEE.expenditure.form.data.attributes.amount")
+
+      button.md-button.md-primary.md-raised.md-block(
+        type="submit"
+        ng-bind="haEE.expenditure.data.id ?  'update' : 'save'"
+      )
+
+      button.md-button.md-block(
+        ng-click="haEE.reset()"
+        ng-if="haEE.expenditure.data.id"
+      ) NEW
