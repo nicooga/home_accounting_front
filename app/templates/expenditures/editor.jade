@@ -12,14 +12,25 @@ md-card
 
       md-input-container.md-block
         label Amount
-        input(ng-model="haEE.expenditure.form.data.attributes.amount")
-
-      button.md-button.md-primary.md-raised.md-block(
-        type="submit"
-        ng-bind="haEE.expenditure.data.id ?  'update' : 'save'"
+        input(
+          type="number" step="0.01"
+          ng-model="haEE.expenditure.form.data.attributes.amount"
       )
 
-      button.md-button.md-block(
-        ng-click="haEE.reset()"
-        ng-if="haEE.expenditure.data.id"
-      ) NEW
+      md-input-container
+        label Tags
+        md-chips(ng-model="haEE.expenditure.form.data.attributes['tag-names']")
+          md-chip-template(ng-bind="$chip")
+
+      div(layout="row")
+        button.md-button.md-primary.md-raised.md-block(
+          flex
+          type="submit"
+          ng-bind="haEE.expenditure.data.id ?  'update' : 'save'"
+        )
+
+        button.md-button.md-block(
+          flex
+          ng-click="haEE.reset()"
+          ng-if="haEE.expenditure.data.id"
+        ) NEW

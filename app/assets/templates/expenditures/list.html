@@ -17,6 +17,7 @@
           <th md-column="md-column">Desc</th>
           <th md-column="md-column">Amount</th>
           <th md-column="md-column">Date</th>
+          <th md-column="md-column">Tags</th>
         </tr>
       </thead>
       <tbody md-body="md-body">
@@ -24,6 +25,7 @@
           <td md-cell="md-cell" ng-bind="expenditure.data.attributes.desc"></td>
           <td md-cell="md-cell" ng-bind="expenditure.data.attributes.amount"></td>
           <td md-cell="md-cell" ng-bind="expenditure.data.attributes['expent-at']"></td>
+          <td md-cell="md-cell" ng-bind="expenditure.data.attributes['tag-names']"></td>
         </tr>
       </tbody>
     </table>

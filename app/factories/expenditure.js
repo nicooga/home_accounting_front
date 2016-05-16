@@ -11,7 +11,8 @@ function factoryConfig($jsonapi) {
     attributes: {
       desc: [],
       amount: [],
-      "expent-at": []
+      "expent-at": [],
+      "tag-names": []
     }
   };
 
@@ -27,9 +28,16 @@ function factoryConstructor($jsonapi) {
   var resource = $jsonapi.getResource("expenditure");
 
   resource.initialize = function() {
-    var res = this.__proto__.initialize.apply(this);
-    res.form.data.attributes["expent-at"] = new Date();
-    return res;
+    return ((instance) => {
+      angular.extend(instance.form.data.attributes, {
+        desc: "PRUEBA",
+        amount: 666,
+        "expent-at": new Date(),
+        "tag-names": ["PRUEBA"]
+      });
+
+      return instance;
+    })(this.__proto__.initialize.apply(this))
   }
 
   return resource;
