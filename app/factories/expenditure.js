@@ -9,10 +9,13 @@ function factoryConfig($jsonapi) {
   var schema = {
     type: "expenditure",
     attributes: {
-      desc: [],
-      amount: [],
-      "expent-at": [],
-      "tag-names": []
+      desc: { presence: true },
+      amount: {
+        presence: true,
+        numericallity: { greaterThan: 0 }
+      },
+      "expent-at": { presence: true, datetime: true },
+      "tag-names": {}
     }
   };
 

@@ -14,9 +14,7 @@
         </md-input-container>
         <md-input-container>
           <label>Tags</label>
-          <md-chips ng-model="haEE.expenditure.form.data.attributes['tag-names']">
-            <md-chip-template ng-bind="$chip"></md-chip-template>
-          </md-chips>
+          <md-chips ng-model="haEE.expenditure.form.data.attributes['tag-names']"></md-chips>
         </md-input-container>
         <div layout="row">
           <button flex="flex" type="submit" ng-bind="haEE.expenditure.data.id ?  'update' : 'save'" class="md-button md-primary md-raised md-block"></button>

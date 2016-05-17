@@ -28,4 +28,8 @@ md-card
           td(md-cell ng-bind="expenditure.data.attributes.desc")
           td(md-cell ng-bind="expenditure.data.attributes.amount")
           td(md-cell ng-bind="expenditure.data.attributes['expent-at']")
-          td(md-cell ng-bind="expenditure.data.attributes['tag-names']")
+          td(md-cell)
+            md-chips(
+              ng-model="expenditure.data.attributes['tag-names']"
+              readonly="true"
+            )
