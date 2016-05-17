@@ -1,35 +1,28 @@
-md-card
-  form.md-inline-form(
-    ng-submit="haEE.save()"
-    layout="column"
-  )
-    md-content(layout-padding): div
-      md-datepicker(ng-model="haEE.expenditure.form.data.attributes['expent-at']")
+form.md-inline-form(
+  ng-submit="haEE.save()"
+  layout="column"
+)
+  md-content(layout-padding): div
+    md-datepicker(ng-model="haEE.expenditure.form.data.attributes['expent-at']")
 
-      md-input-container.md-block
-        label Desc
-        input(ng-model="haEE.expenditure.form.data.attributes.desc")
+    md-input-container.md-block
+      label Desc
+      input(ng-model="haEE.expenditure.form.data.attributes.desc")
 
-      md-input-container.md-block
-        label Amount
-        input(
-          type="number" step="0.01"
-          ng-model="haEE.expenditure.form.data.attributes.amount"
+    md-input-container.md-block
+      label Amount
+      input(
+        type="number" step="0.01"
+        ng-model="haEE.expenditure.form.data.attributes.amount"
+    )
+
+    md-input-container
+      label Tags
+      md-chips(ng-model="haEE.expenditure.form.data.attributes['tag-names']")
+
+    div(layout="row")
+      button.md-button.md-primary.md-raised.md-block(
+        flex
+        type="submit"
+        ng-bind="haEE.expenditure.data.id ?  'update' : 'save'"
       )
-
-      md-input-container
-        label Tags
-        md-chips(ng-model="haEE.expenditure.form.data.attributes['tag-names']")
-
-      div(layout="row")
-        button.md-button.md-primary.md-raised.md-block(
-          flex
-          type="submit"
-          ng-bind="haEE.expenditure.data.id ?  'update' : 'save'"
-        )
-
-        button.md-button.md-block(
-          flex
-          ng-click="haEE.reset()"
-          ng-if="haEE.expenditure.data.id"
-        ) NEW

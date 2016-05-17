@@ -1,26 +1,23 @@
 
-<md-card>
-  <form ng-submit="haEE.save()" layout="column" class="md-inline-form">
-    <md-content layout-padding="layout-padding">
-      <div>
-        <md-datepicker ng-model="haEE.expenditure.form.data.attributes['expent-at']"></md-datepicker>
-        <md-input-container class="md-block">
-          <label>Desc</label>
-          <input ng-model="haEE.expenditure.form.data.attributes.desc"/>
-        </md-input-container>
-        <md-input-container class="md-block">
-          <label>Amount</label>
-          <input type="number" step="0.01" ng-model="haEE.expenditure.form.data.attributes.amount"/>
-        </md-input-container>
-        <md-input-container>
-          <label>Tags</label>
-          <md-chips ng-model="haEE.expenditure.form.data.attributes['tag-names']"></md-chips>
-        </md-input-container>
-        <div layout="row">
-          <button flex="flex" type="submit" ng-bind="haEE.expenditure.data.id ?  'update' : 'save'" class="md-button md-primary md-raised md-block"></button>
-          <button flex="flex" ng-click="haEE.reset()" ng-if="haEE.expenditure.data.id" class="md-button md-block">NEW</button>
-        </div>
+<form ng-submit="haEE.save()" layout="column" class="md-inline-form">
+  <md-content layout-padding="layout-padding">
+    <div>
+      <md-datepicker ng-model="haEE.expenditure.form.data.attributes['expent-at']"></md-datepicker>
+      <md-input-container class="md-block">
+        <label>Desc</label>
+        <input ng-model="haEE.expenditure.form.data.attributes.desc"/>
+      </md-input-container>
+      <md-input-container class="md-block">
+        <label>Amount</label>
+        <input type="number" step="0.01" ng-model="haEE.expenditure.form.data.attributes.amount"/>
+      </md-input-container>
+      <md-input-container>
+        <label>Tags</label>
+        <md-chips ng-model="haEE.expenditure.form.data.attributes['tag-names']"></md-chips>
+      </md-input-container>
+      <div layout="row">
+        <button flex="flex" type="submit" ng-bind="haEE.expenditure.data.id ?  'update' : 'save'" class="md-button md-primary md-raised md-block"></button>
       </div>
-    </md-content>
-  </form>
-</md-card>
+    </div>
+  </md-content>
+</form>

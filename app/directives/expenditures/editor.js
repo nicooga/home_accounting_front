@@ -6,25 +6,25 @@ angular
 
 function directiveConstructor(Expenditure) {
   return {
+    templateUrl: "/templates/expenditures/editor.html",
     controller: controller,
     controllerAs: "haEE",
-    templateUrl: "/templates/expenditures/editor.html",
-    bindToController: { expenditure: "=" }
+    scope: {
+      expenditure: "=",
+      onSave: "&?"
+    },
+    bindToController: true
   };
 
-  function controller($scope) {
+  function controller() {
     var vm = this;
 
     vm.save = save;
-    vm.reset = reset;
-    vm.setExpenditure = setExpenditure;
+    vm.expenditure =
+      vm.expenditure || Expenditure.initialize();
 
-    $scope.$watch("expenditure", () => {
-      !$scope.expenditure && reset();
-    });
-
-    function setExpenditure(e) { vm.expenditure = e; }
-    function reset() { vm.expenditure = Expenditure.initialize(); }
-    function save() { vm.expenditure.form.save().then(reset); }
+    function save() {
+      vm.expenditure.form.save().then(vm.onSave);
+    }
   }
 }

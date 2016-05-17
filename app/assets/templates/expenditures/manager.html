@@ -1,5 +1,7 @@
 
-<div layout-gt-sm="row">
-  <ha-expenditure-editor flex="25" expenditure="expenditure"></ha-expenditure-editor>
-  <ha-expenditure-list flex="flex" on-select="haEE.setExpenditure($expenditure)"></ha-expenditure-list>
+<div layout="column" class="relatively-aligned">
+  <ha-expenditure-list flex="flex" on-select="haEM.openEditModal($expenditure)"></ha-expenditure-list>
+  <md-button ng-click="haEM.openEditModal()" class="md-fab fab-alignment">
+    <md-icon md-svg-icon="/icons/ic_add_black_24px.svg"></md-icon>
+  </md-button>
 </div>

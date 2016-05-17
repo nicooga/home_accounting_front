@@ -1,3 +1,7 @@
-div(layout-gt-sm="row")
-  ha-expenditure-editor(flex=25 expenditure="expenditure")
-  ha-expenditure-list(flex on-select="haEE.setExpenditure($expenditure)")
+.relatively-aligned(layout="column")
+  ha-expenditure-list(flex on-select="haEM.openEditModal($expenditure)")
+
+  md-button.md-fab.fab-alignment(
+    ng-click="haEM.openEditModal()"
+  )
+    md-icon(md-svg-icon="/icons/ic_add_black_24px.svg")

@@ -12,9 +12,9 @@ function factoryConfig($jsonapi) {
       desc: { presence: true },
       amount: {
         presence: true,
-        numericallity: { greaterThan: 0 }
+        numericality: { greaterThan: 0 }
       },
-      "expent-at": { presence: true, datetime: true },
+      "expent-at": { presence: true },
       "tag-names": {}
     }
   };
