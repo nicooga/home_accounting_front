@@ -1,0 +1,31 @@
+
+<md-content layout-padding="layout-padding">
+  <form ng-submit="haELF.onSubmit({ $filters: haELF.form })" layout="column" layout-padding="layout-padding">
+    <md-input-container>
+      <label>Desc</label>
+      <input ng-model="haELF.form.desc"/>
+    </md-input-container>
+    <div layout="row">
+      <md-input-container flex="flex">
+        <label>Min Amount</label>
+        <input ng-model="haELF.form['amount-gteq']" type="number"/>
+      </md-input-container>
+      <md-input-container flex="flex">
+        <label>Max Amount</label>
+        <input ng-model="haELF.form['amount-lteq']" type="number" ng-min="amountGteq"/>
+      </md-input-container>
+    </div>
+    <div layout-gt-md="row">
+      <div flex="flex">
+        <label>Min Date</label>
+        <md-datepicker ng-model="haELF.form['date-gteq']"></md-datepicker>
+      </div>
+      <div flex="flex">
+        <label>Max Date</label>
+        <md-datepicker ng-model="haELF.form['date-lteq']"></md-datepicker>
+      </div>
+    </div>
+    <md-chips ng-model="haELF.form['tag-names']"></md-chips>
+    <md-button type="submit" class="md-primary md-raised">FILTER</md-button>
+  </form>
+</md-content>

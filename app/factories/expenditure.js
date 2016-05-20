@@ -1,9 +1,9 @@
 "use strict";
 
 angular
-  .module("HomeAccountingFront")
-  .run(factoryConfig)
-  .factory("Expenditure", factoryConstructor);
+.module("HomeAccountingFront")
+.run(factoryConfig)
+.factory("Expenditure", factoryConstructor);
 
 function factoryConfig($jsonapi) {
   var schema = {

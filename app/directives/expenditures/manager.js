@@ -29,8 +29,9 @@ function directiveConstructor(Expenditure, $mdDialog, $mdToast) {
           expenditure: expenditure,
           onSave: onSave
         },
-        bindToController: true
-      })
+        bindToController: true,
+        clickOutsideToClose: true
+      });
 
       function onSave() {
         $mdToast.showSimple("SUCCESS");

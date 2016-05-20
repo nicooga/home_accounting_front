@@ -17,6 +17,11 @@ angular.module("HomeAccountingFront", [
 require("factories/expenditure");
 
 // Directives
+require("directives/utc_parser")
+require("directives/float_parser")
+
 require("directives/expenditures/manager");
 require("directives/expenditures/list");
+require("directives/expenditures/list/filters");
 require("directives/expenditures/editor");
+

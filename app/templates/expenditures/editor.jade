@@ -3,7 +3,16 @@ form.md-inline-form(
   layout="column"
 )
   md-content(layout-padding): div
-    md-datepicker(ng-model="haEE.expenditure.form.data.attributes['expent-at']")
+    .md-datepicker-wrapper(layout="row")
+      md-datepicker.md-block(
+        flex
+        ng-model="haEE.expenditure.form.data.attributes['expent-at']"
+        md-placeholder="Expent At"
+        utc-parser
+      )
+
+      md-button.md-icon-button(ng-click="haEE.expenditure.form.data.attributes['expent-at'] = undefined")
+        md-icon(md-svg-src="icons/ic_remove_circle_outline_black_48px.svg")
 
     md-input-container.md-block
       label Desc
@@ -14,7 +23,8 @@ form.md-inline-form(
       input(
         type="number" step="0.01"
         ng-model="haEE.expenditure.form.data.attributes.amount"
-    )
+        float-parser
+      )
 
     md-input-container
       label Tags
@@ -24,5 +34,5 @@ form.md-inline-form(
       button.md-button.md-primary.md-raised.md-block(
         flex
         type="submit"
-        ng-bind="haEE.expenditure.data.id ?  'update' : 'save'"
+        ng-bind="haEE.expenditure.data.id ? 'update' : 'save'"
       )

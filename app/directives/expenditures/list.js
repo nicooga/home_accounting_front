@@ -8,21 +8,19 @@ function directiveConstructor(Expenditure) {
   return {
     controller: controller,
     controllerAs: "haEL",
-    templateUrl: "/templates/expenditures/list.html",
-    replace: true,
+    //templateUrl: "/templates/expenditures/list.html",
+    //replace: true,
     bindToController: { onSelect: "&?" }
   };
 
   function controller($scope) {
     var vm = this;
 
-    var request = Expenditure.all();
-    request.promise.then(() => {
-      vm.expenditures = request.data;
-    });
-
     vm.selected = [];
     vm.destroySelected = destroySelected;
+    vm.setFilters = setFilters;
+
+    query();
 
     function destroySelected() {
       vm.selected.forEach((e) => {
@@ -30,6 +28,19 @@ function directiveConstructor(Expenditure) {
           const i = vm.selected.indexOf(e);
           if (i !== -1) vm.selected.splice(i, 1);
         });
+      });
+    }
+
+    function setFilters(filters) {
+      this.filters = filters;
+      query(filters);
+    }
+
+    function query(filters) {
+      var request = Expenditure.all(filters);
+
+      request.promise.then(() => {
+        vm.expenditures = request.data;
       });
     }
   }
