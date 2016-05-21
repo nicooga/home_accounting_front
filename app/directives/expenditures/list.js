@@ -37,9 +37,9 @@ function directiveConstructor(Expenditure) {
     }
 
     function query(filters) {
-      var request = Expenditure.all(filters);
+      var request = Expenditure.all({filters: filters});
 
-      request.promise.then(() => {
+      request.promise.then(_ => {
         vm.expenditures = request.data;
       });
     }
