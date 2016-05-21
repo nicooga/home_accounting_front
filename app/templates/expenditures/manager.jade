@@ -46,7 +46,7 @@ section.relatively-aligned(layout="row")
               ng-click="haEL.onSelect({ $expenditure: expenditure })"
             )
               td(md-cell ng-bind="expenditure.data.attributes.desc")
-              td(md-cell ng-bind="expenditure.data.attributes.amount")
+              td(md-cell ng-bind="expenditure.data.attributes.amount | currency")
               td(md-cell ng-bind="expenditure.data.attributes['expent-at']")
               td(md-cell)
                 md-chips(

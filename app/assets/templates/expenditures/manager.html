@@ -36,7 +36,7 @@
           <tbody md-body="md-body">
             <tr md-row="md-row" ng-repeat="expenditure in haEL.expenditures track by expenditure.data.id" md-select="expenditure" ng-click="haEL.onSelect({ $expenditure: expenditure })">
               <td md-cell="md-cell" ng-bind="expenditure.data.attributes.desc"></td>
-              <td md-cell="md-cell" ng-bind="expenditure.data.attributes.amount"></td>
+              <td md-cell="md-cell" ng-bind="expenditure.data.attributes.amount | currency"></td>
               <td md-cell="md-cell" ng-bind="expenditure.data.attributes['expent-at']"></td>
               <td md-cell="md-cell">
                 <md-chips ng-model="expenditure.data.attributes['tag-names']" readonly="true"></md-chips>
