@@ -15,7 +15,12 @@ md-content(layout-padding)
 
       md-input-container(flex)
         label Max Amount
-        input(ng-model="haELF.form['amount-lteq']" type="number" ng-min="amountGteq")
+        input(
+          ng-model="haELF.form['amount-lteq']"
+          type="number"
+          min="{{ haELF.form['amount-gteq'] }}"
+          ng-min="haELF.form['amount-gteq']"
+        )
 
     div(layout-gt-md="row")
       div(flex)

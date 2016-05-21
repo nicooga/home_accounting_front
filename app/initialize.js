@@ -13,6 +13,9 @@ angular.module("HomeAccountingFront", [
   "angular-jsonapi-rest",
 ]);
 
+// Config
+require("config/material_theme")
+
 // Factories
 require("factories/expenditure");
 
@@ -24,4 +27,3 @@ require("directives/expenditures/manager");
 require("directives/expenditures/list");
 require("directives/expenditures/list/filters");
 require("directives/expenditures/editor");
-
