@@ -17,6 +17,8 @@ module.exports =
       path: [/app/]
     sass:
       mode: "native"
+    uglify:
+      mangle: false
   npm:
     styles:
       "angular-material": ["angular-material.min.css"]
