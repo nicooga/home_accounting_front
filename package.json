@@ -23,8 +23,9 @@
     "angular-route": "^1.5.5",
     "angular-sanitize": "^1.5.5",
     "babel-brunch": "^6.0.4",
-    "underscore": "^1.8.3",
-    "statik": ">= 1.1.0"
+    "brunch": "^2.8.0",
+    "statik": ">= 1.1.0",
+    "underscore": "^1.8.3"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2.0.0",
