@@ -15,6 +15,8 @@ module.exports =
     static_jade:
       extension: ".jade"
       path: [/app/]
+    ng_annotate:
+      pattern: /app/
   npm:
     styles:
       "angular-material": ["angular-material.min.css"]
