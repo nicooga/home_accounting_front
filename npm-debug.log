@@ -1,0 +1,2610 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@3.8.3
+3 info using node@v5.10.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angular
+20 silly mapToRegistry name angular
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'angular',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   name: 'angular',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/angular
+25 silly fetchNamedPackageData angular-animate
+26 silly mapToRegistry name angular-animate
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'angular-animate',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   name: 'angular-animate',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+31 silly fetchNamedPackageData angular-aria
+32 silly mapToRegistry name angular-aria
+33 silly mapToRegistry using default registry
+34 silly mapToRegistry registry https://registry.npmjs.org/
+35 silly mapToRegistry data Result {
+35 silly mapToRegistry   raw: 'angular-aria',
+35 silly mapToRegistry   scope: null,
+35 silly mapToRegistry   name: 'angular-aria',
+35 silly mapToRegistry   rawSpec: '',
+35 silly mapToRegistry   spec: 'latest',
+35 silly mapToRegistry   type: 'tag' }
+36 silly mapToRegistry uri https://registry.npmjs.org/angular-aria
+37 silly fetchNamedPackageData angular-material
+38 silly mapToRegistry name angular-material
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry data Result {
+41 silly mapToRegistry   raw: 'angular-material',
+41 silly mapToRegistry   scope: null,
+41 silly mapToRegistry   name: 'angular-material',
+41 silly mapToRegistry   rawSpec: '',
+41 silly mapToRegistry   spec: 'latest',
+41 silly mapToRegistry   type: 'tag' }
+42 silly mapToRegistry uri https://registry.npmjs.org/angular-material
+43 silly fetchNamedPackageData angular-material-data-table
+44 silly mapToRegistry name angular-material-data-table
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'angular-material-data-table',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   name: 'angular-material-data-table',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/angular-material-data-table
+49 silly fetchNamedPackageData angular-messages
+50 silly mapToRegistry name angular-messages
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry data Result {
+53 silly mapToRegistry   raw: 'angular-messages',
+53 silly mapToRegistry   scope: null,
+53 silly mapToRegistry   name: 'angular-messages',
+53 silly mapToRegistry   rawSpec: '',
+53 silly mapToRegistry   spec: 'latest',
+53 silly mapToRegistry   type: 'tag' }
+54 silly mapToRegistry uri https://registry.npmjs.org/angular-messages
+55 silly fetchNamedPackageData angular-mocks
+56 silly mapToRegistry name angular-mocks
+57 silly mapToRegistry using default registry
+58 silly mapToRegistry registry https://registry.npmjs.org/
+59 silly mapToRegistry data Result {
+59 silly mapToRegistry   raw: 'angular-mocks',
+59 silly mapToRegistry   scope: null,
+59 silly mapToRegistry   name: 'angular-mocks',
+59 silly mapToRegistry   rawSpec: '',
+59 silly mapToRegistry   spec: 'latest',
+59 silly mapToRegistry   type: 'tag' }
+60 silly mapToRegistry uri https://registry.npmjs.org/angular-mocks
+61 silly fetchNamedPackageData angular-route
+62 silly mapToRegistry name angular-route
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry data Result {
+65 silly mapToRegistry   raw: 'angular-route',
+65 silly mapToRegistry   scope: null,
+65 silly mapToRegistry   name: 'angular-route',
+65 silly mapToRegistry   rawSpec: '',
+65 silly mapToRegistry   spec: 'latest',
+65 silly mapToRegistry   type: 'tag' }
+66 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+67 silly fetchNamedPackageData angular-sanitize
+68 silly mapToRegistry name angular-sanitize
+69 silly mapToRegistry using default registry
+70 silly mapToRegistry registry https://registry.npmjs.org/
+71 silly mapToRegistry data Result {
+71 silly mapToRegistry   raw: 'angular-sanitize',
+71 silly mapToRegistry   scope: null,
+71 silly mapToRegistry   name: 'angular-sanitize',
+71 silly mapToRegistry   rawSpec: '',
+71 silly mapToRegistry   spec: 'latest',
+71 silly mapToRegistry   type: 'tag' }
+72 silly mapToRegistry uri https://registry.npmjs.org/angular-sanitize
+73 silly fetchNamedPackageData auto-reload-brunch
+74 silly mapToRegistry name auto-reload-brunch
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry data Result {
+77 silly mapToRegistry   raw: 'auto-reload-brunch',
+77 silly mapToRegistry   scope: null,
+77 silly mapToRegistry   name: 'auto-reload-brunch',
+77 silly mapToRegistry   rawSpec: '',
+77 silly mapToRegistry   spec: 'latest',
+77 silly mapToRegistry   type: 'tag' }
+78 silly mapToRegistry uri https://registry.npmjs.org/auto-reload-brunch
+79 silly fetchNamedPackageData babel-brunch
+80 silly mapToRegistry name babel-brunch
+81 silly mapToRegistry using default registry
+82 silly mapToRegistry registry https://registry.npmjs.org/
+83 silly mapToRegistry data Result {
+83 silly mapToRegistry   raw: 'babel-brunch',
+83 silly mapToRegistry   scope: null,
+83 silly mapToRegistry   name: 'babel-brunch',
+83 silly mapToRegistry   rawSpec: '',
+83 silly mapToRegistry   spec: 'latest',
+83 silly mapToRegistry   type: 'tag' }
+84 silly mapToRegistry uri https://registry.npmjs.org/babel-brunch
+85 silly fetchNamedPackageData bower
+86 silly mapToRegistry name bower
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry data Result {
+89 silly mapToRegistry   raw: 'bower',
+89 silly mapToRegistry   scope: null,
+89 silly mapToRegistry   name: 'bower',
+89 silly mapToRegistry   rawSpec: '',
+89 silly mapToRegistry   spec: 'latest',
+89 silly mapToRegistry   type: 'tag' }
+90 silly mapToRegistry uri https://registry.npmjs.org/bower
+91 silly fetchNamedPackageData brunch
+92 silly mapToRegistry name brunch
+93 silly mapToRegistry using default registry
+94 silly mapToRegistry registry https://registry.npmjs.org/
+95 silly mapToRegistry data Result {
+95 silly mapToRegistry   raw: 'brunch',
+95 silly mapToRegistry   scope: null,
+95 silly mapToRegistry   name: 'brunch',
+95 silly mapToRegistry   rawSpec: '',
+95 silly mapToRegistry   spec: 'latest',
+95 silly mapToRegistry   type: 'tag' }
+96 silly mapToRegistry uri https://registry.npmjs.org/brunch
+97 silly fetchNamedPackageData clean-css-brunch
+98 silly mapToRegistry name clean-css-brunch
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry data Result {
+101 silly mapToRegistry   raw: 'clean-css-brunch',
+101 silly mapToRegistry   scope: null,
+101 silly mapToRegistry   name: 'clean-css-brunch',
+101 silly mapToRegistry   rawSpec: '',
+101 silly mapToRegistry   spec: 'latest',
+101 silly mapToRegistry   type: 'tag' }
+102 silly mapToRegistry uri https://registry.npmjs.org/clean-css-brunch
+103 silly fetchNamedPackageData css-brunch
+104 silly mapToRegistry name css-brunch
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry data Result {
+107 silly mapToRegistry   raw: 'css-brunch',
+107 silly mapToRegistry   scope: null,
+107 silly mapToRegistry   name: 'css-brunch',
+107 silly mapToRegistry   rawSpec: '',
+107 silly mapToRegistry   spec: 'latest',
+107 silly mapToRegistry   type: 'tag' }
+108 silly mapToRegistry uri https://registry.npmjs.org/css-brunch
+109 silly fetchNamedPackageData jade-brunch
+110 silly mapToRegistry name jade-brunch
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry data Result {
+113 silly mapToRegistry   raw: 'jade-brunch',
+113 silly mapToRegistry   scope: null,
+113 silly mapToRegistry   name: 'jade-brunch',
+113 silly mapToRegistry   rawSpec: '',
+113 silly mapToRegistry   spec: 'latest',
+113 silly mapToRegistry   type: 'tag' }
+114 silly mapToRegistry uri https://registry.npmjs.org/jade-brunch
+115 silly fetchNamedPackageData javascript-brunch
+116 silly mapToRegistry name javascript-brunch
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry data Result {
+119 silly mapToRegistry   raw: 'javascript-brunch',
+119 silly mapToRegistry   scope: null,
+119 silly mapToRegistry   name: 'javascript-brunch',
+119 silly mapToRegistry   rawSpec: '',
+119 silly mapToRegistry   spec: 'latest',
+119 silly mapToRegistry   type: 'tag' }
+120 silly mapToRegistry uri https://registry.npmjs.org/javascript-brunch
+121 silly fetchNamedPackageData sass-brunch
+122 silly mapToRegistry name sass-brunch
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry data Result {
+125 silly mapToRegistry   raw: 'sass-brunch',
+125 silly mapToRegistry   scope: null,
+125 silly mapToRegistry   name: 'sass-brunch',
+125 silly mapToRegistry   rawSpec: '',
+125 silly mapToRegistry   spec: 'latest',
+125 silly mapToRegistry   type: 'tag' }
+126 silly mapToRegistry uri https://registry.npmjs.org/sass-brunch
+127 silly fetchNamedPackageData static-jade-brunch
+128 silly mapToRegistry name static-jade-brunch
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry https://registry.npmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'static-jade-brunch',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   name: 'static-jade-brunch',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri https://registry.npmjs.org/static-jade-brunch
+133 silly fetchNamedPackageData statik
+134 silly mapToRegistry name statik
+135 silly mapToRegistry using default registry
+136 silly mapToRegistry registry https://registry.npmjs.org/
+137 silly mapToRegistry data Result {
+137 silly mapToRegistry   raw: 'statik',
+137 silly mapToRegistry   scope: null,
+137 silly mapToRegistry   name: 'statik',
+137 silly mapToRegistry   rawSpec: '',
+137 silly mapToRegistry   spec: 'latest',
+137 silly mapToRegistry   type: 'tag' }
+138 silly mapToRegistry uri https://registry.npmjs.org/statik
+139 silly fetchNamedPackageData underscore
+140 silly mapToRegistry name underscore
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry https://registry.npmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'underscore',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   name: 'underscore',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri https://registry.npmjs.org/underscore
+145 verbose request uri https://registry.npmjs.org/angular
+146 verbose request no auth needed
+147 info attempt registry request try #1 at 18:46:42
+148 verbose request id 66f2b22350fc1519
+149 verbose etag "A276SCBN87PUDFSJ3RYXP6JO9"
+150 http request GET https://registry.npmjs.org/angular
+151 verbose request uri https://registry.npmjs.org/angular-animate
+152 verbose request no auth needed
+153 info attempt registry request try #1 at 18:46:42
+154 verbose etag "2A4Q7SCZOZ2TAC8UUWTF75VKA"
+155 http request GET https://registry.npmjs.org/angular-animate
+156 verbose request uri https://registry.npmjs.org/angular-aria
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 18:46:42
+159 verbose etag "7PCVC43XGCIUG89LR9NACFLZG"
+160 http request GET https://registry.npmjs.org/angular-aria
+161 verbose request uri https://registry.npmjs.org/angular-material
+162 verbose request no auth needed
+163 info attempt registry request try #1 at 18:46:42
+164 verbose etag "BMCEKO9D77NYDPS9RQ2Q1V2X8"
+165 http request GET https://registry.npmjs.org/angular-material
+166 verbose request uri https://registry.npmjs.org/angular-material-data-table
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 18:46:42
+169 verbose etag "4XBQ4QNFEZ2IZJ20ARFSCK4R7"
+170 http request GET https://registry.npmjs.org/angular-material-data-table
+171 verbose request uri https://registry.npmjs.org/angular-messages
+172 verbose request no auth needed
+173 info attempt registry request try #1 at 18:46:42
+174 verbose etag "5IJ51AL8HBVO3WASWSCEEHXFS"
+175 http request GET https://registry.npmjs.org/angular-messages
+176 verbose request uri https://registry.npmjs.org/angular-mocks
+177 verbose request no auth needed
+178 info attempt registry request try #1 at 18:46:42
+179 verbose etag "CHX9H2ON59H1O2YOC8WB2I50P"
+180 http request GET https://registry.npmjs.org/angular-mocks
+181 verbose request uri https://registry.npmjs.org/angular-route
+182 verbose request no auth needed
+183 info attempt registry request try #1 at 18:46:42
+184 verbose etag "4NGW11GN3FJ19KZ2WPETQ8K16"
+185 http request GET https://registry.npmjs.org/angular-route
+186 verbose request uri https://registry.npmjs.org/angular-sanitize
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 18:46:42
+189 verbose etag "BGX396WMB9CK634Q8D41QZR3V"
+190 http request GET https://registry.npmjs.org/angular-sanitize
+191 verbose request uri https://registry.npmjs.org/auto-reload-brunch
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 18:46:42
+194 verbose etag "35KWD7ROVJ2G25XKQZU6CY1GD"
+195 http request GET https://registry.npmjs.org/auto-reload-brunch
+196 verbose request uri https://registry.npmjs.org/babel-brunch
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 18:46:42
+199 verbose etag "EGCK22FD2JMXMKJOSGDBZBQP7"
+200 http request GET https://registry.npmjs.org/babel-brunch
+201 verbose request uri https://registry.npmjs.org/bower
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 18:46:42
+204 verbose etag "6E7E0KPZ2W1PF1SAUZLC9CQGC"
+205 http request GET https://registry.npmjs.org/bower
+206 verbose request uri https://registry.npmjs.org/clean-css-brunch
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 18:46:42
+209 verbose etag "5MPZPCMAI74IWZRADCMJFIHZW"
+210 http request GET https://registry.npmjs.org/clean-css-brunch
+211 verbose request uri https://registry.npmjs.org/css-brunch
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 18:46:42
+214 verbose etag "4YX2L1NJVSI2XGV2B6L7CKNYH"
+215 http request GET https://registry.npmjs.org/css-brunch
+216 verbose request uri https://registry.npmjs.org/jade-brunch
+217 verbose request no auth needed
+218 info attempt registry request try #1 at 18:46:42
+219 verbose etag "BFCJ4XAAMHUNUFWJRM687WLUI"
+220 http request GET https://registry.npmjs.org/jade-brunch
+221 verbose request uri https://registry.npmjs.org/javascript-brunch
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 18:46:42
+224 verbose etag "29I869TOMAOKBX6F9X34ADN83"
+225 http request GET https://registry.npmjs.org/javascript-brunch
+226 verbose request uri https://registry.npmjs.org/sass-brunch
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 18:46:42
+229 verbose etag "272NX2IYPNE7XIWYMDJDLO0WE"
+230 http request GET https://registry.npmjs.org/sass-brunch
+231 verbose request uri https://registry.npmjs.org/brunch
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 18:46:42
+234 verbose etag "U69NPPP8R1EYMUG754LYMPSE"
+235 http request GET https://registry.npmjs.org/brunch
+236 verbose request uri https://registry.npmjs.org/static-jade-brunch
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 18:46:42
+239 verbose etag "2R4UZD6W1LW1SDPCO4Q7S545N"
+240 http request GET https://registry.npmjs.org/static-jade-brunch
+241 verbose request uri https://registry.npmjs.org/statik
+242 verbose request no auth needed
+243 info attempt registry request try #1 at 18:46:43
+244 verbose etag "5RL07935CDKVQ3ESQ1WJUMMLT"
+245 http request GET https://registry.npmjs.org/statik
+246 verbose request uri https://registry.npmjs.org/underscore
+247 verbose request no auth needed
+248 info attempt registry request try #1 at 18:46:43
+249 verbose etag "6ZMDOEJMIE5SJFLT041CVM3D9"
+250 http request GET https://registry.npmjs.org/underscore
+251 http 304 https://registry.npmjs.org/angular-animate
+252 verbose headers { date: 'Fri, 27 May 2016 21:46:43 GMT',
+252 verbose headers   via: '1.1 varnish',
+252 verbose headers   'cache-control': 'max-age=300',
+252 verbose headers   etag: '"2A4Q7SCZOZ2TAC8UUWTF75VKA"',
+252 verbose headers   age: '153',
+252 verbose headers   connection: 'keep-alive',
+252 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+252 verbose headers   'x-cache': 'HIT',
+252 verbose headers   'x-cache-hits': '1',
+252 verbose headers   'x-timer': 'S1464385603.901541,VS0,VE0',
+252 verbose headers   vary: 'Accept-Encoding' }
+253 silly get cb [ 304,
+253 silly get   { date: 'Fri, 27 May 2016 21:46:43 GMT',
+253 silly get     via: '1.1 varnish',
+253 silly get     'cache-control': 'max-age=300',
+253 silly get     etag: '"2A4Q7SCZOZ2TAC8UUWTF75VKA"',
+253 silly get     age: '153',
+253 silly get     connection: 'keep-alive',
+253 silly get     'x-served-by': 'cache-lax1433-LAX',
+253 silly get     'x-cache': 'HIT',
+253 silly get     'x-cache-hits': '1',
+253 silly get     'x-timer': 'S1464385603.901541,VS0,VE0',
+253 silly get     vary: 'Accept-Encoding' } ]
+254 verbose etag https://registry.npmjs.org/angular-animate from cache
+255 verbose get saving angular-animate to /home/dev10/.npm/registry.npmjs.org/angular-animate/.cache.json
+256 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+257 silly resolveWithNewModule angular-animate@1.5.6 checking installable status
+258 silly cache add args [ 'angular-animate@^1.5.5', null ]
+259 verbose cache add spec angular-animate@^1.5.5
+260 silly cache add parsed spec Result {
+260 silly cache add   raw: 'angular-animate@^1.5.5',
+260 silly cache add   scope: null,
+260 silly cache add   name: 'angular-animate',
+260 silly cache add   rawSpec: '^1.5.5',
+260 silly cache add   spec: '>=1.5.5 <2.0.0',
+260 silly cache add   type: 'range' }
+261 silly addNamed angular-animate@>=1.5.5 <2.0.0
+262 verbose addNamed ">=1.5.5 <2.0.0" is a valid semver range for angular-animate
+263 silly addNameRange { name: 'angular-animate',
+263 silly addNameRange   range: '>=1.5.5 <2.0.0',
+263 silly addNameRange   hasData: false }
+264 silly mapToRegistry name angular-animate
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npmjs.org/
+267 silly mapToRegistry data Result {
+267 silly mapToRegistry   raw: 'angular-animate',
+267 silly mapToRegistry   scope: null,
+267 silly mapToRegistry   name: 'angular-animate',
+267 silly mapToRegistry   rawSpec: '',
+267 silly mapToRegistry   spec: 'latest',
+267 silly mapToRegistry   type: 'tag' }
+268 silly mapToRegistry uri https://registry.npmjs.org/angular-animate
+269 verbose addNameRange registry:https://registry.npmjs.org/angular-animate not in flight; fetching
+270 http 304 https://registry.npmjs.org/angular
+271 verbose headers { date: 'Fri, 27 May 2016 21:46:43 GMT',
+271 verbose headers   via: '1.1 varnish',
+271 verbose headers   'cache-control': 'max-age=300',
+271 verbose headers   etag: '"A276SCBN87PUDFSJ3RYXP6JO9"',
+271 verbose headers   age: '188',
+271 verbose headers   connection: 'keep-alive',
+271 verbose headers   'x-served-by': 'cache-lax1432-LAX',
+271 verbose headers   'x-cache': 'HIT',
+271 verbose headers   'x-cache-hits': '1',
+271 verbose headers   'x-timer': 'S1464385603.968098,VS0,VE0',
+271 verbose headers   vary: 'Accept-Encoding' }
+272 silly get cb [ 304,
+272 silly get   { date: 'Fri, 27 May 2016 21:46:43 GMT',
+272 silly get     via: '1.1 varnish',
+272 silly get     'cache-control': 'max-age=300',
+272 silly get     etag: '"A276SCBN87PUDFSJ3RYXP6JO9"',
+272 silly get     age: '188',
+272 silly get     connection: 'keep-alive',
+272 silly get     'x-served-by': 'cache-lax1432-LAX',
+272 silly get     'x-cache': 'HIT',
+272 silly get     'x-cache-hits': '1',
+272 silly get     'x-timer': 'S1464385603.968098,VS0,VE0',
+272 silly get     vary: 'Accept-Encoding' } ]
+273 verbose etag https://registry.npmjs.org/angular from cache
+274 verbose get saving angular to /home/dev10/.npm/registry.npmjs.org/angular/.cache.json
+275 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+276 http 304 https://registry.npmjs.org/angular-material-data-table
+277 verbose headers { date: 'Fri, 27 May 2016 21:46:43 GMT',
+277 verbose headers   via: '1.1 varnish',
+277 verbose headers   'cache-control': 'max-age=300',
+277 verbose headers   etag: '"4XBQ4QNFEZ2IZJ20ARFSCK4R7"',
+277 verbose headers   age: '0',
+277 verbose headers   connection: 'keep-alive',
+277 verbose headers   'x-served-by': 'cache-lax1441-LAX',
+277 verbose headers   'x-cache': 'HIT',
+277 verbose headers   'x-cache-hits': '1',
+277 verbose headers   'x-timer': 'S1464385603.926184,VS0,VE82',
+277 verbose headers   vary: 'Accept-Encoding' }
+278 silly get cb [ 304,
+278 silly get   { date: 'Fri, 27 May 2016 21:46:43 GMT',
+278 silly get     via: '1.1 varnish',
+278 silly get     'cache-control': 'max-age=300',
+278 silly get     etag: '"4XBQ4QNFEZ2IZJ20ARFSCK4R7"',
+278 silly get     age: '0',
+278 silly get     connection: 'keep-alive',
+278 silly get     'x-served-by': 'cache-lax1441-LAX',
+278 silly get     'x-cache': 'HIT',
+278 silly get     'x-cache-hits': '1',
+278 silly get     'x-timer': 'S1464385603.926184,VS0,VE82',
+278 silly get     vary: 'Accept-Encoding' } ]
+279 verbose etag https://registry.npmjs.org/angular-material-data-table from cache
+280 verbose get saving angular-material-data-table to /home/dev10/.npm/registry.npmjs.org/angular-material-data-table/.cache.json
+281 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+282 http 304 https://registry.npmjs.org/javascript-brunch
+283 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+283 verbose headers   via: '1.1 varnish',
+283 verbose headers   'cache-control': 'max-age=300',
+283 verbose headers   etag: '"29I869TOMAOKBX6F9X34ADN83"',
+283 verbose headers   age: '243',
+283 verbose headers   connection: 'keep-alive',
+283 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+283 verbose headers   'x-cache': 'HIT',
+283 verbose headers   'x-cache-hits': '1',
+283 verbose headers   'x-timer': 'S1464385604.063813,VS0,VE0',
+283 verbose headers   vary: 'Accept-Encoding' }
+284 silly get cb [ 304,
+284 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+284 silly get     via: '1.1 varnish',
+284 silly get     'cache-control': 'max-age=300',
+284 silly get     etag: '"29I869TOMAOKBX6F9X34ADN83"',
+284 silly get     age: '243',
+284 silly get     connection: 'keep-alive',
+284 silly get     'x-served-by': 'cache-lax1428-LAX',
+284 silly get     'x-cache': 'HIT',
+284 silly get     'x-cache-hits': '1',
+284 silly get     'x-timer': 'S1464385604.063813,VS0,VE0',
+284 silly get     vary: 'Accept-Encoding' } ]
+285 verbose etag https://registry.npmjs.org/javascript-brunch from cache
+286 verbose get saving javascript-brunch to /home/dev10/.npm/registry.npmjs.org/javascript-brunch/.cache.json
+287 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+288 verbose get https://registry.npmjs.org/angular-animate not expired, no request
+289 silly addNameRange number 2 { name: 'angular-animate',
+289 silly addNameRange   range: '>=1.5.5 <2.0.0',
+289 silly addNameRange   hasData: true }
+290 silly addNameRange versions [ 'angular-animate',
+290 silly addNameRange   [ '0.0.1',
+290 silly addNameRange     '0.0.2',
+290 silly addNameRange     '1.2.19-build.256',
+290 silly addNameRange     '1.2.16',
+290 silly addNameRange     '1.2.23',
+290 silly addNameRange     '1.3.0-rc.5',
+290 silly addNameRange     '1.3.0',
+290 silly addNameRange     '1.3.1',
+290 silly addNameRange     '1.3.2',
+290 silly addNameRange     '1.3.3',
+290 silly addNameRange     '1.3.4-build.3588',
+290 silly addNameRange     '1.2.27',
+290 silly addNameRange     '1.3.4',
+290 silly addNameRange     '1.3.5',
+290 silly addNameRange     '1.3.6',
+290 silly addNameRange     '1.3.7',
+290 silly addNameRange     '1.2.28',
+290 silly addNameRange     '1.3.8',
+290 silly addNameRange     '1.4.0-beta.0',
+290 silly addNameRange     '1.3.9',
+290 silly addNameRange     '1.3.10',
+290 silly addNameRange     '1.4.0-beta.1',
+290 silly addNameRange     '1.4.0-beta.2',
+290 silly addNameRange     '1.3.11',
+290 silly addNameRange     '1.4.0-beta.3',
+290 silly addNameRange     '1.3.12',
+290 silly addNameRange     '1.3.13',
+290 silly addNameRange     '1.4.0-beta.4',
+290 silly addNameRange     '1.3.14',
+290 silly addNameRange     '1.4.0-beta.5',
+290 silly addNameRange     '1.4.0-beta.6',
+290 silly addNameRange     '1.3.15',
+290 silly addNameRange     '1.4.0-rc.0',
+290 silly addNameRange     '1.4.0-rc.1',
+290 silly addNameRange     '1.4.0-rc.2',
+290 silly addNameRange     '1.4.0',
+290 silly addNameRange     '1.3.16',
+290 silly addNameRange     '1.4.1',
+290 silly addNameRange     '1.4.2',
+290 silly addNameRange     '1.3.17',
+290 silly addNameRange     '1.4.3',
+290 silly addNameRange     '1.4.4',
+290 silly addNameRange     '1.3.18',
+290 silly addNameRange     '1.4.5',
+290 silly addNameRange     '1.3.19',
+290 silly addNameRange     '1.4.6',
+290 silly addNameRange     '1.5.0-beta.0',
+290 silly addNameRange     '1.2.29',
+290 silly addNameRange     '1.3.20',
+290 silly addNameRange     '1.4.7',
+290 silly addNameRange     '1.5.0-beta.2',
+290 silly addNameRange     '1.4.8',
+290 silly addNameRange     '1.5.0-rc.0',
+290 silly addNameRange     '1.5.0-rc.1',
+290 silly addNameRange     '1.4.9',
+290 silly addNameRange     '1.5.0-rc.2',
+290 silly addNameRange     '1.5.0',
+290 silly addNameRange     '1.5.1',
+290 silly addNameRange     '1.4.10',
+290 silly addNameRange     '1.5.2',
+290 silly addNameRange     '1.5.3',
+290 silly addNameRange     '1.5.5',
+290 silly addNameRange     '1.4.11',
+290 silly addNameRange     '1.5.6' ] ]
+291 silly addNamed angular-animate@1.5.6
+292 verbose addNamed "1.5.6" is a plain semver version for angular-animate
+293 http 200 https://registry.npmjs.org/angular-material
+294 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+294 verbose headers   etag: '"AWONL3TIWDAWMJABOTWO1ICMB"',
+294 verbose headers   'content-type': 'application/json',
+294 verbose headers   'content-encoding': 'gzip',
+294 verbose headers   'cache-control': 'max-age=300',
+294 verbose headers   'content-length': '8611',
+294 verbose headers   'accept-ranges': 'bytes',
+294 verbose headers   date: 'Fri, 27 May 2016 21:46:43 GMT',
+294 verbose headers   via: '1.1 varnish',
+294 verbose headers   age: '265',
+294 verbose headers   connection: 'keep-alive',
+294 verbose headers   'x-served-by': 'cache-sjc3132-SJC',
+294 verbose headers   'x-cache': 'HIT',
+294 verbose headers   'x-cache-hits': '1',
+294 verbose headers   'x-timer': 'S1464385603.980685,VS0,VE0',
+294 verbose headers   vary: 'Accept-Encoding' }
+295 silly get cb [ 200,
+295 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+295 silly get     etag: '"AWONL3TIWDAWMJABOTWO1ICMB"',
+295 silly get     'content-type': 'application/json',
+295 silly get     'content-encoding': 'gzip',
+295 silly get     'cache-control': 'max-age=300',
+295 silly get     'content-length': '8611',
+295 silly get     'accept-ranges': 'bytes',
+295 silly get     date: 'Fri, 27 May 2016 21:46:43 GMT',
+295 silly get     via: '1.1 varnish',
+295 silly get     age: '265',
+295 silly get     connection: 'keep-alive',
+295 silly get     'x-served-by': 'cache-sjc3132-SJC',
+295 silly get     'x-cache': 'HIT',
+295 silly get     'x-cache-hits': '1',
+295 silly get     'x-timer': 'S1464385603.980685,VS0,VE0',
+295 silly get     vary: 'Accept-Encoding' } ]
+296 verbose get saving angular-material to /home/dev10/.npm/registry.npmjs.org/angular-material/.cache.json
+297 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+298 http 304 https://registry.npmjs.org/angular-mocks
+299 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+299 verbose headers   via: '1.1 varnish',
+299 verbose headers   'cache-control': 'max-age=300',
+299 verbose headers   etag: '"CHX9H2ON59H1O2YOC8WB2I50P"',
+299 verbose headers   age: '170',
+299 verbose headers   connection: 'keep-alive',
+299 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+299 verbose headers   'x-cache': 'HIT',
+299 verbose headers   'x-cache-hits': '1',
+299 verbose headers   'x-timer': 'S1464385604.069742,VS0,VE0',
+299 verbose headers   vary: 'Accept-Encoding' }
+300 silly get cb [ 304,
+300 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+300 silly get     via: '1.1 varnish',
+300 silly get     'cache-control': 'max-age=300',
+300 silly get     etag: '"CHX9H2ON59H1O2YOC8WB2I50P"',
+300 silly get     age: '170',
+300 silly get     connection: 'keep-alive',
+300 silly get     'x-served-by': 'cache-lax1433-LAX',
+300 silly get     'x-cache': 'HIT',
+300 silly get     'x-cache-hits': '1',
+300 silly get     'x-timer': 'S1464385604.069742,VS0,VE0',
+300 silly get     vary: 'Accept-Encoding' } ]
+301 verbose etag https://registry.npmjs.org/angular-mocks from cache
+302 verbose get saving angular-mocks to /home/dev10/.npm/registry.npmjs.org/angular-mocks/.cache.json
+303 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+304 http 304 https://registry.npmjs.org/babel-brunch
+305 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+305 verbose headers   via: '1.1 varnish',
+305 verbose headers   'cache-control': 'max-age=300',
+305 verbose headers   etag: '"EGCK22FD2JMXMKJOSGDBZBQP7"',
+305 verbose headers   age: '0',
+305 verbose headers   connection: 'keep-alive',
+305 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+305 verbose headers   'x-cache': 'MISS',
+305 verbose headers   'x-cache-hits': '0',
+305 verbose headers   'x-timer': 'S1464385604.042062,VS0,VE41',
+305 verbose headers   vary: 'Accept-Encoding' }
+306 silly get cb [ 304,
+306 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+306 silly get     via: '1.1 varnish',
+306 silly get     'cache-control': 'max-age=300',
+306 silly get     etag: '"EGCK22FD2JMXMKJOSGDBZBQP7"',
+306 silly get     age: '0',
+306 silly get     connection: 'keep-alive',
+306 silly get     'x-served-by': 'cache-lax1427-LAX',
+306 silly get     'x-cache': 'MISS',
+306 silly get     'x-cache-hits': '0',
+306 silly get     'x-timer': 'S1464385604.042062,VS0,VE41',
+306 silly get     vary: 'Accept-Encoding' } ]
+307 verbose etag https://registry.npmjs.org/babel-brunch from cache
+308 verbose get saving babel-brunch to /home/dev10/.npm/registry.npmjs.org/babel-brunch/.cache.json
+309 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+310 http 200 https://registry.npmjs.org/angular-messages
+311 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+311 verbose headers   etag: '"D5LDPNL0JCGYEJ7UQTHTIIQG5"',
+311 verbose headers   'content-type': 'application/json',
+311 verbose headers   'content-encoding': 'gzip',
+311 verbose headers   'cache-control': 'max-age=300',
+311 verbose headers   'content-length': '8970',
+311 verbose headers   'accept-ranges': 'bytes',
+311 verbose headers   date: 'Fri, 27 May 2016 21:46:43 GMT',
+311 verbose headers   via: '1.1 varnish',
+311 verbose headers   age: '265',
+311 verbose headers   connection: 'keep-alive',
+311 verbose headers   'x-served-by': 'cache-sjc3122-SJC',
+311 verbose headers   'x-cache': 'HIT',
+311 verbose headers   'x-cache-hits': '1',
+311 verbose headers   'x-timer': 'S1464385603.967752,VS0,VE0',
+311 verbose headers   vary: 'Accept-Encoding' }
+312 silly get cb [ 200,
+312 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+312 silly get     etag: '"D5LDPNL0JCGYEJ7UQTHTIIQG5"',
+312 silly get     'content-type': 'application/json',
+312 silly get     'content-encoding': 'gzip',
+312 silly get     'cache-control': 'max-age=300',
+312 silly get     'content-length': '8970',
+312 silly get     'accept-ranges': 'bytes',
+312 silly get     date: 'Fri, 27 May 2016 21:46:43 GMT',
+312 silly get     via: '1.1 varnish',
+312 silly get     age: '265',
+312 silly get     connection: 'keep-alive',
+312 silly get     'x-served-by': 'cache-sjc3122-SJC',
+312 silly get     'x-cache': 'HIT',
+312 silly get     'x-cache-hits': '1',
+312 silly get     'x-timer': 'S1464385603.967752,VS0,VE0',
+312 silly get     vary: 'Accept-Encoding' } ]
+313 verbose get saving angular-messages to /home/dev10/.npm/registry.npmjs.org/angular-messages/.cache.json
+314 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+315 http 304 https://registry.npmjs.org/angular-sanitize
+316 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+316 verbose headers   via: '1.1 varnish',
+316 verbose headers   'cache-control': 'max-age=300',
+316 verbose headers   etag: '"BGX396WMB9CK634Q8D41QZR3V"',
+316 verbose headers   age: '191',
+316 verbose headers   connection: 'keep-alive',
+316 verbose headers   'x-served-by': 'cache-sjc3120-SJC',
+316 verbose headers   'x-cache': 'HIT',
+316 verbose headers   'x-cache-hits': '1',
+316 verbose headers   'x-timer': 'S1464385604.094652,VS0,VE0',
+316 verbose headers   vary: 'Accept-Encoding' }
+317 silly get cb [ 304,
+317 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+317 silly get     via: '1.1 varnish',
+317 silly get     'cache-control': 'max-age=300',
+317 silly get     etag: '"BGX396WMB9CK634Q8D41QZR3V"',
+317 silly get     age: '191',
+317 silly get     connection: 'keep-alive',
+317 silly get     'x-served-by': 'cache-sjc3120-SJC',
+317 silly get     'x-cache': 'HIT',
+317 silly get     'x-cache-hits': '1',
+317 silly get     'x-timer': 'S1464385604.094652,VS0,VE0',
+317 silly get     vary: 'Accept-Encoding' } ]
+318 verbose etag https://registry.npmjs.org/angular-sanitize from cache
+319 verbose get saving angular-sanitize to /home/dev10/.npm/registry.npmjs.org/angular-sanitize/.cache.json
+320 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+321 http 304 https://registry.npmjs.org/underscore
+322 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+322 verbose headers   via: '1.1 varnish',
+322 verbose headers   'cache-control': 'max-age=300',
+322 verbose headers   etag: '"6ZMDOEJMIE5SJFLT041CVM3D9"',
+322 verbose headers   age: '102',
+322 verbose headers   connection: 'keep-alive',
+322 verbose headers   'x-served-by': 'cache-lax1421-LAX',
+322 verbose headers   'x-cache': 'HIT',
+322 verbose headers   'x-cache-hits': '177',
+322 verbose headers   'x-timer': 'S1464385604.110497,VS0,VE0',
+322 verbose headers   vary: 'Accept-Encoding' }
+323 silly get cb [ 304,
+323 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+323 silly get     via: '1.1 varnish',
+323 silly get     'cache-control': 'max-age=300',
+323 silly get     etag: '"6ZMDOEJMIE5SJFLT041CVM3D9"',
+323 silly get     age: '102',
+323 silly get     connection: 'keep-alive',
+323 silly get     'x-served-by': 'cache-lax1421-LAX',
+323 silly get     'x-cache': 'HIT',
+323 silly get     'x-cache-hits': '177',
+323 silly get     'x-timer': 'S1464385604.110497,VS0,VE0',
+323 silly get     vary: 'Accept-Encoding' } ]
+324 verbose etag https://registry.npmjs.org/underscore from cache
+325 verbose get saving underscore to /home/dev10/.npm/registry.npmjs.org/underscore/.cache.json
+326 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+327 silly resolveWithNewModule angular@1.5.6 checking installable status
+328 silly cache add args [ 'angular@^1.5.5', null ]
+329 verbose cache add spec angular@^1.5.5
+330 silly cache add parsed spec Result {
+330 silly cache add   raw: 'angular@^1.5.5',
+330 silly cache add   scope: null,
+330 silly cache add   name: 'angular',
+330 silly cache add   rawSpec: '^1.5.5',
+330 silly cache add   spec: '>=1.5.5 <2.0.0',
+330 silly cache add   type: 'range' }
+331 silly addNamed angular@>=1.5.5 <2.0.0
+332 verbose addNamed ">=1.5.5 <2.0.0" is a valid semver range for angular
+333 silly addNameRange { name: 'angular', range: '>=1.5.5 <2.0.0', hasData: false }
+334 silly mapToRegistry name angular
+335 silly mapToRegistry using default registry
+336 silly mapToRegistry registry https://registry.npmjs.org/
+337 silly mapToRegistry data Result {
+337 silly mapToRegistry   raw: 'angular',
+337 silly mapToRegistry   scope: null,
+337 silly mapToRegistry   name: 'angular',
+337 silly mapToRegistry   rawSpec: '',
+337 silly mapToRegistry   spec: 'latest',
+337 silly mapToRegistry   type: 'tag' }
+338 silly mapToRegistry uri https://registry.npmjs.org/angular
+339 verbose addNameRange registry:https://registry.npmjs.org/angular not in flight; fetching
+340 http 304 https://registry.npmjs.org/bower
+341 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+341 verbose headers   via: '1.1 varnish',
+341 verbose headers   'cache-control': 'max-age=300',
+341 verbose headers   etag: '"6E7E0KPZ2W1PF1SAUZLC9CQGC"',
+341 verbose headers   age: '206',
+341 verbose headers   connection: 'keep-alive',
+341 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
+341 verbose headers   'x-cache': 'HIT',
+341 verbose headers   'x-cache-hits': '4',
+341 verbose headers   'x-timer': 'S1464385604.130217,VS0,VE0',
+341 verbose headers   vary: 'Accept-Encoding' }
+342 silly get cb [ 304,
+342 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+342 silly get     via: '1.1 varnish',
+342 silly get     'cache-control': 'max-age=300',
+342 silly get     etag: '"6E7E0KPZ2W1PF1SAUZLC9CQGC"',
+342 silly get     age: '206',
+342 silly get     connection: 'keep-alive',
+342 silly get     'x-served-by': 'cache-sjc3125-SJC',
+342 silly get     'x-cache': 'HIT',
+342 silly get     'x-cache-hits': '4',
+342 silly get     'x-timer': 'S1464385604.130217,VS0,VE0',
+342 silly get     vary: 'Accept-Encoding' } ]
+343 verbose etag https://registry.npmjs.org/bower from cache
+344 verbose get saving bower to /home/dev10/.npm/registry.npmjs.org/bower/.cache.json
+345 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+346 http 304 https://registry.npmjs.org/clean-css-brunch
+347 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+347 verbose headers   via: '1.1 varnish',
+347 verbose headers   'cache-control': 'max-age=300',
+347 verbose headers   etag: '"5MPZPCMAI74IWZRADCMJFIHZW"',
+347 verbose headers   age: '48',
+347 verbose headers   connection: 'keep-alive',
+347 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+347 verbose headers   'x-cache': 'HIT',
+347 verbose headers   'x-cache-hits': '20',
+347 verbose headers   'x-timer': 'S1464385604.136196,VS0,VE0',
+347 verbose headers   vary: 'Accept-Encoding' }
+348 silly get cb [ 304,
+348 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+348 silly get     via: '1.1 varnish',
+348 silly get     'cache-control': 'max-age=300',
+348 silly get     etag: '"5MPZPCMAI74IWZRADCMJFIHZW"',
+348 silly get     age: '48',
+348 silly get     connection: 'keep-alive',
+348 silly get     'x-served-by': 'cache-sjc3127-SJC',
+348 silly get     'x-cache': 'HIT',
+348 silly get     'x-cache-hits': '20',
+348 silly get     'x-timer': 'S1464385604.136196,VS0,VE0',
+348 silly get     vary: 'Accept-Encoding' } ]
+349 verbose etag https://registry.npmjs.org/clean-css-brunch from cache
+350 verbose get saving clean-css-brunch to /home/dev10/.npm/registry.npmjs.org/clean-css-brunch/.cache.json
+351 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+352 http 304 https://registry.npmjs.org/css-brunch
+353 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+353 verbose headers   via: '1.1 varnish',
+353 verbose headers   'cache-control': 'max-age=300',
+353 verbose headers   etag: '"4YX2L1NJVSI2XGV2B6L7CKNYH"',
+353 verbose headers   age: '48',
+353 verbose headers   connection: 'keep-alive',
+353 verbose headers   'x-served-by': 'cache-sjc3128-SJC',
+353 verbose headers   'x-cache': 'HIT',
+353 verbose headers   'x-cache-hits': '1',
+353 verbose headers   'x-timer': 'S1464385604.144279,VS0,VE0',
+353 verbose headers   vary: 'Accept-Encoding' }
+354 silly get cb [ 304,
+354 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+354 silly get     via: '1.1 varnish',
+354 silly get     'cache-control': 'max-age=300',
+354 silly get     etag: '"4YX2L1NJVSI2XGV2B6L7CKNYH"',
+354 silly get     age: '48',
+354 silly get     connection: 'keep-alive',
+354 silly get     'x-served-by': 'cache-sjc3128-SJC',
+354 silly get     'x-cache': 'HIT',
+354 silly get     'x-cache-hits': '1',
+354 silly get     'x-timer': 'S1464385604.144279,VS0,VE0',
+354 silly get     vary: 'Accept-Encoding' } ]
+355 verbose etag https://registry.npmjs.org/css-brunch from cache
+356 verbose get saving css-brunch to /home/dev10/.npm/registry.npmjs.org/css-brunch/.cache.json
+357 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+358 silly cache afterAdd angular-animate@1.5.6
+359 verbose afterAdd /home/dev10/.npm/angular-animate/1.5.6/package/package.json not in flight; writing
+360 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+361 silly resolveWithNewModule angular-material-data-table@0.10.9 checking installable status
+362 silly cache add args [ 'angular-material-data-table@^0.10.9', null ]
+363 verbose cache add spec angular-material-data-table@^0.10.9
+364 silly cache add parsed spec Result {
+364 silly cache add   raw: 'angular-material-data-table@^0.10.9',
+364 silly cache add   scope: null,
+364 silly cache add   name: 'angular-material-data-table',
+364 silly cache add   rawSpec: '^0.10.9',
+364 silly cache add   spec: '>=0.10.9 <0.11.0',
+364 silly cache add   type: 'range' }
+365 silly addNamed angular-material-data-table@>=0.10.9 <0.11.0
+366 verbose addNamed ">=0.10.9 <0.11.0" is a valid semver range for angular-material-data-table
+367 silly addNameRange { name: 'angular-material-data-table',
+367 silly addNameRange   range: '>=0.10.9 <0.11.0',
+367 silly addNameRange   hasData: false }
+368 silly mapToRegistry name angular-material-data-table
+369 silly mapToRegistry using default registry
+370 silly mapToRegistry registry https://registry.npmjs.org/
+371 silly mapToRegistry data Result {
+371 silly mapToRegistry   raw: 'angular-material-data-table',
+371 silly mapToRegistry   scope: null,
+371 silly mapToRegistry   name: 'angular-material-data-table',
+371 silly mapToRegistry   rawSpec: '',
+371 silly mapToRegistry   spec: 'latest',
+371 silly mapToRegistry   type: 'tag' }
+372 silly mapToRegistry uri https://registry.npmjs.org/angular-material-data-table
+373 verbose addNameRange registry:https://registry.npmjs.org/angular-material-data-table not in flight; fetching
+374 http 304 https://registry.npmjs.org/static-jade-brunch
+375 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+375 verbose headers   via: '1.1 varnish',
+375 verbose headers   'cache-control': 'max-age=300',
+375 verbose headers   etag: '"2R4UZD6W1LW1SDPCO4Q7S545N"',
+375 verbose headers   age: '0',
+375 verbose headers   connection: 'keep-alive',
+375 verbose headers   'x-served-by': 'cache-lax1424-LAX',
+375 verbose headers   'x-cache': 'MISS',
+375 verbose headers   'x-cache-hits': '0',
+375 verbose headers   'x-timer': 'S1464385604.111432,VS0,VE53',
+375 verbose headers   vary: 'Accept-Encoding' }
+376 silly get cb [ 304,
+376 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+376 silly get     via: '1.1 varnish',
+376 silly get     'cache-control': 'max-age=300',
+376 silly get     etag: '"2R4UZD6W1LW1SDPCO4Q7S545N"',
+376 silly get     age: '0',
+376 silly get     connection: 'keep-alive',
+376 silly get     'x-served-by': 'cache-lax1424-LAX',
+376 silly get     'x-cache': 'MISS',
+376 silly get     'x-cache-hits': '0',
+376 silly get     'x-timer': 'S1464385604.111432,VS0,VE53',
+376 silly get     vary: 'Accept-Encoding' } ]
+377 verbose etag https://registry.npmjs.org/static-jade-brunch from cache
+378 verbose get saving static-jade-brunch to /home/dev10/.npm/registry.npmjs.org/static-jade-brunch/.cache.json
+379 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+380 http 304 https://registry.npmjs.org/jade-brunch
+381 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+381 verbose headers   via: '1.1 varnish',
+381 verbose headers   'cache-control': 'max-age=300',
+381 verbose headers   etag: '"BFCJ4XAAMHUNUFWJRM687WLUI"',
+381 verbose headers   age: '0',
+381 verbose headers   connection: 'keep-alive',
+381 verbose headers   'x-served-by': 'cache-sjc3131-SJC',
+381 verbose headers   'x-cache': 'MISS',
+381 verbose headers   'x-cache-hits': '0',
+381 verbose headers   'x-timer': 'S1464385604.146486,VS0,VE32',
+381 verbose headers   vary: 'Accept-Encoding' }
+382 silly get cb [ 304,
+382 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+382 silly get     via: '1.1 varnish',
+382 silly get     'cache-control': 'max-age=300',
+382 silly get     etag: '"BFCJ4XAAMHUNUFWJRM687WLUI"',
+382 silly get     age: '0',
+382 silly get     connection: 'keep-alive',
+382 silly get     'x-served-by': 'cache-sjc3131-SJC',
+382 silly get     'x-cache': 'MISS',
+382 silly get     'x-cache-hits': '0',
+382 silly get     'x-timer': 'S1464385604.146486,VS0,VE32',
+382 silly get     vary: 'Accept-Encoding' } ]
+383 verbose etag https://registry.npmjs.org/jade-brunch from cache
+384 verbose get saving jade-brunch to /home/dev10/.npm/registry.npmjs.org/jade-brunch/.cache.json
+385 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+386 silly resolveWithNewModule javascript-brunch@2.0.0 checking installable status
+387 silly cache add args [ 'javascript-brunch@^2.0.0', null ]
+388 verbose cache add spec javascript-brunch@^2.0.0
+389 silly cache add parsed spec Result {
+389 silly cache add   raw: 'javascript-brunch@^2.0.0',
+389 silly cache add   scope: null,
+389 silly cache add   name: 'javascript-brunch',
+389 silly cache add   rawSpec: '^2.0.0',
+389 silly cache add   spec: '>=2.0.0 <3.0.0',
+389 silly cache add   type: 'range' }
+390 silly addNamed javascript-brunch@>=2.0.0 <3.0.0
+391 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for javascript-brunch
+392 silly addNameRange { name: 'javascript-brunch',
+392 silly addNameRange   range: '>=2.0.0 <3.0.0',
+392 silly addNameRange   hasData: false }
+393 silly mapToRegistry name javascript-brunch
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry https://registry.npmjs.org/
+396 silly mapToRegistry data Result {
+396 silly mapToRegistry   raw: 'javascript-brunch',
+396 silly mapToRegistry   scope: null,
+396 silly mapToRegistry   name: 'javascript-brunch',
+396 silly mapToRegistry   rawSpec: '',
+396 silly mapToRegistry   spec: 'latest',
+396 silly mapToRegistry   type: 'tag' }
+397 silly mapToRegistry uri https://registry.npmjs.org/javascript-brunch
+398 verbose addNameRange registry:https://registry.npmjs.org/javascript-brunch not in flight; fetching
+399 http 200 https://registry.npmjs.org/angular-aria
+400 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+400 verbose headers   etag: '"7D7S3KDUYDC3DNX35P34ZUB0E"',
+400 verbose headers   'content-type': 'application/json',
+400 verbose headers   'content-encoding': 'gzip',
+400 verbose headers   'cache-control': 'max-age=300',
+400 verbose headers   'content-length': '8724',
+400 verbose headers   'accept-ranges': 'bytes',
+400 verbose headers   date: 'Fri, 27 May 2016 21:46:44 GMT',
+400 verbose headers   via: '1.1 varnish',
+400 verbose headers   age: '266',
+400 verbose headers   connection: 'keep-alive',
+400 verbose headers   'x-served-by': 'cache-sjc3123-SJC',
+400 verbose headers   'x-cache': 'HIT',
+400 verbose headers   'x-cache-hits': '1',
+400 verbose headers   'x-timer': 'S1464385604.088843,VS0,VE0',
+400 verbose headers   vary: 'Accept-Encoding' }
+401 silly get cb [ 200,
+401 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+401 silly get     etag: '"7D7S3KDUYDC3DNX35P34ZUB0E"',
+401 silly get     'content-type': 'application/json',
+401 silly get     'content-encoding': 'gzip',
+401 silly get     'cache-control': 'max-age=300',
+401 silly get     'content-length': '8724',
+401 silly get     'accept-ranges': 'bytes',
+401 silly get     date: 'Fri, 27 May 2016 21:46:44 GMT',
+401 silly get     via: '1.1 varnish',
+401 silly get     age: '266',
+401 silly get     connection: 'keep-alive',
+401 silly get     'x-served-by': 'cache-sjc3123-SJC',
+401 silly get     'x-cache': 'HIT',
+401 silly get     'x-cache-hits': '1',
+401 silly get     'x-timer': 'S1464385604.088843,VS0,VE0',
+401 silly get     vary: 'Accept-Encoding' } ]
+402 verbose get saving angular-aria to /home/dev10/.npm/registry.npmjs.org/angular-aria/.cache.json
+403 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+404 http 304 https://registry.npmjs.org/auto-reload-brunch
+405 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+405 verbose headers   via: '1.1 varnish',
+405 verbose headers   'cache-control': 'max-age=300',
+405 verbose headers   etag: '"35KWD7ROVJ2G25XKQZU6CY1GD"',
+405 verbose headers   age: '0',
+405 verbose headers   connection: 'keep-alive',
+405 verbose headers   'x-served-by': 'cache-lax1438-LAX',
+405 verbose headers   'x-cache': 'MISS',
+405 verbose headers   'x-cache-hits': '0',
+405 verbose headers   'x-timer': 'S1464385604.041662,VS0,VE166',
+405 verbose headers   vary: 'Accept-Encoding' }
+406 silly get cb [ 304,
+406 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+406 silly get     via: '1.1 varnish',
+406 silly get     'cache-control': 'max-age=300',
+406 silly get     etag: '"35KWD7ROVJ2G25XKQZU6CY1GD"',
+406 silly get     age: '0',
+406 silly get     connection: 'keep-alive',
+406 silly get     'x-served-by': 'cache-lax1438-LAX',
+406 silly get     'x-cache': 'MISS',
+406 silly get     'x-cache-hits': '0',
+406 silly get     'x-timer': 'S1464385604.041662,VS0,VE166',
+406 silly get     vary: 'Accept-Encoding' } ]
+407 verbose etag https://registry.npmjs.org/auto-reload-brunch from cache
+408 verbose get saving auto-reload-brunch to /home/dev10/.npm/registry.npmjs.org/auto-reload-brunch/.cache.json
+409 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+410 verbose get https://registry.npmjs.org/angular not expired, no request
+411 silly addNameRange number 2 { name: 'angular', range: '>=1.5.5 <2.0.0', hasData: true }
+412 silly addNameRange versions [ 'angular',
+412 silly addNameRange   [ '0.0.1',
+412 silly addNameRange     '0.0.1-1',
+412 silly addNameRange     '0.0.1-2',
+412 silly addNameRange     '0.0.2',
+412 silly addNameRange     '0.0.3',
+412 silly addNameRange     '0.0.4',
+412 silly addNameRange     '1.0.0',
+412 silly addNameRange     '1.0.1',
+412 silly addNameRange     '1.0.2',
+412 silly addNameRange     '1.0.3',
+412 silly addNameRange     '1.0.4',
+412 silly addNameRange     '1.0.5',
+412 silly addNameRange     '1.0.6',
+412 silly addNameRange     '1.0.7',
+412 silly addNameRange     '1.0.8',
+412 silly addNameRange     '1.1.0',
+412 silly addNameRange     '1.1.1',
+412 silly addNameRange     '1.1.2',
+412 silly addNameRange     '1.1.3',
+412 silly addNameRange     '1.1.4',
+412 silly addNameRange     '1.1.5',
+412 silly addNameRange     '1.2.0',
+412 silly addNameRange     '1.2.1',
+412 silly addNameRange     '1.2.2',
+412 silly addNameRange     '1.2.3',
+412 silly addNameRange     '1.2.4',
+412 silly addNameRange     '1.2.5',
+412 silly addNameRange     '1.2.6',
+412 silly addNameRange     '1.2.7',
+412 silly addNameRange     '1.2.8',
+412 silly addNameRange     '1.2.9',
+412 silly addNameRange     '1.2.10',
+412 silly addNameRange     '1.2.11',
+412 silly addNameRange     '1.2.12',
+412 silly addNameRange     '1.2.13',
+412 silly addNameRange     '1.2.14',
+412 silly addNameRange     '1.2.15',
+412 silly addNameRange     '1.2.16',
+412 silly addNameRange     '1.2.17',
+412 silly addNameRange     '1.2.18',
+412 silly addNameRange     '1.2.19',
+412 silly addNameRange     '1.2.20',
+412 silly addNameRange     '1.2.21',
+412 silly addNameRange     '1.2.22',
+412 silly addNameRange     '1.2.23',
+412 silly addNameRange     '1.3.0-rc.5',
+412 silly addNameRange     '1.3.0',
+412 silly addNameRange     '1.3.1',
+412 silly addNameRange     '1.3.2',
+412 silly addNameRange     '1.3.3',
+412 silly addNameRange     '1.3.4-build.3588',
+412 silly addNameRange     '1.2.27',
+412 silly addNameRange     '1.3.4',
+412 silly addNameRange     '1.3.5',
+412 silly addNameRange     '1.3.6',
+412 silly addNameRange     '1.3.7',
+412 silly addNameRange     '1.2.28',
+412 silly addNameRange     '1.3.8',
+412 silly addNameRange     '1.4.0-beta.0',
+412 silly addNameRange     '1.3.9',
+412 silly addNameRange     '1.3.10',
+412 silly addNameRange     '1.4.0-beta.1',
+412 silly addNameRange     '1.4.0-beta.2',
+412 silly addNameRange     '1.3.11',
+412 silly addNameRange     '1.4.0-beta.3',
+412 silly addNameRange     '1.3.12',
+412 silly addNameRange     '1.3.13',
+412 silly addNameRange     '1.4.0-beta.4',
+412 silly addNameRange     '1.3.14',
+412 silly addNameRange     '1.4.0-beta.5',
+412 silly addNameRange     '1.4.0-beta.6',
+412 silly addNameRange     '1.3.15',
+412 silly addNameRange     '1.4.0-rc.0',
+412 silly addNameRange     '1.4.0-rc.1',
+412 silly addNameRange     '1.4.0-rc.2',
+412 silly addNameRange     '1.4.0',
+412 silly addNameRange     '1.3.16',
+412 silly addNameRange     '1.4.1',
+412 silly addNameRange     '1.4.2',
+412 silly addNameRange     '1.3.17',
+412 silly addNameRange     '1.4.3',
+412 silly addNameRange     '1.4.4',
+412 silly addNameRange     '1.3.18',
+412 silly addNameRange     '1.4.5',
+412 silly addNameRange     '1.3.19',
+412 silly addNameRange     '1.4.6',
+412 silly addNameRange     '1.5.0-beta.0',
+412 silly addNameRange     '1.2.29',
+412 silly addNameRange     '1.3.20',
+412 silly addNameRange     '1.4.7',
+412 silly addNameRange     '1.5.0-beta.2',
+412 silly addNameRange     '1.4.8',
+412 silly addNameRange     '1.5.0-rc.0',
+412 silly addNameRange     '1.5.0-rc.1',
+412 silly addNameRange     '1.4.9',
+412 silly addNameRange     '1.5.0-rc.2',
+412 silly addNameRange     '1.5.0',
+412 silly addNameRange     '1.5.1',
+412 silly addNameRange     '1.4.10',
+412 silly addNameRange     '1.5.2',
+412 silly addNameRange     '1.5.3',
+412 silly addNameRange     '1.5.5',
+412 silly addNameRange     '1.4.11',
+412 silly addNameRange     '1.5.6' ] ]
+413 silly addNamed angular@1.5.6
+414 verbose addNamed "1.5.6" is a plain semver version for angular
+415 silly resolveWithNewModule angular-material@1.0.8 checking installable status
+416 silly cache add args [ 'angular-material@^1.0.7', null ]
+417 verbose cache add spec angular-material@^1.0.7
+418 silly cache add parsed spec Result {
+418 silly cache add   raw: 'angular-material@^1.0.7',
+418 silly cache add   scope: null,
+418 silly cache add   name: 'angular-material',
+418 silly cache add   rawSpec: '^1.0.7',
+418 silly cache add   spec: '>=1.0.7 <2.0.0',
+418 silly cache add   type: 'range' }
+419 silly addNamed angular-material@>=1.0.7 <2.0.0
+420 verbose addNamed ">=1.0.7 <2.0.0" is a valid semver range for angular-material
+421 silly addNameRange { name: 'angular-material',
+421 silly addNameRange   range: '>=1.0.7 <2.0.0',
+421 silly addNameRange   hasData: false }
+422 silly mapToRegistry name angular-material
+423 silly mapToRegistry using default registry
+424 silly mapToRegistry registry https://registry.npmjs.org/
+425 silly mapToRegistry data Result {
+425 silly mapToRegistry   raw: 'angular-material',
+425 silly mapToRegistry   scope: null,
+425 silly mapToRegistry   name: 'angular-material',
+425 silly mapToRegistry   rawSpec: '',
+425 silly mapToRegistry   spec: 'latest',
+425 silly mapToRegistry   type: 'tag' }
+426 silly mapToRegistry uri https://registry.npmjs.org/angular-material
+427 verbose addNameRange registry:https://registry.npmjs.org/angular-material not in flight; fetching
+428 silly resolveWithNewModule angular-mocks@1.5.6 checking installable status
+429 silly cache add args [ 'angular-mocks@^1.5.5', null ]
+430 verbose cache add spec angular-mocks@^1.5.5
+431 silly cache add parsed spec Result {
+431 silly cache add   raw: 'angular-mocks@^1.5.5',
+431 silly cache add   scope: null,
+431 silly cache add   name: 'angular-mocks',
+431 silly cache add   rawSpec: '^1.5.5',
+431 silly cache add   spec: '>=1.5.5 <2.0.0',
+431 silly cache add   type: 'range' }
+432 silly addNamed angular-mocks@>=1.5.5 <2.0.0
+433 verbose addNamed ">=1.5.5 <2.0.0" is a valid semver range for angular-mocks
+434 silly addNameRange { name: 'angular-mocks',
+434 silly addNameRange   range: '>=1.5.5 <2.0.0',
+434 silly addNameRange   hasData: false }
+435 silly mapToRegistry name angular-mocks
+436 silly mapToRegistry using default registry
+437 silly mapToRegistry registry https://registry.npmjs.org/
+438 silly mapToRegistry data Result {
+438 silly mapToRegistry   raw: 'angular-mocks',
+438 silly mapToRegistry   scope: null,
+438 silly mapToRegistry   name: 'angular-mocks',
+438 silly mapToRegistry   rawSpec: '',
+438 silly mapToRegistry   spec: 'latest',
+438 silly mapToRegistry   type: 'tag' }
+439 silly mapToRegistry uri https://registry.npmjs.org/angular-mocks
+440 verbose addNameRange registry:https://registry.npmjs.org/angular-mocks not in flight; fetching
+441 silly resolveWithNewModule babel-brunch@6.0.4 checking installable status
+442 silly cache add args [ 'babel-brunch@^6.0.4', null ]
+443 verbose cache add spec babel-brunch@^6.0.4
+444 silly cache add parsed spec Result {
+444 silly cache add   raw: 'babel-brunch@^6.0.4',
+444 silly cache add   scope: null,
+444 silly cache add   name: 'babel-brunch',
+444 silly cache add   rawSpec: '^6.0.4',
+444 silly cache add   spec: '>=6.0.4 <7.0.0',
+444 silly cache add   type: 'range' }
+445 silly addNamed babel-brunch@>=6.0.4 <7.0.0
+446 verbose addNamed ">=6.0.4 <7.0.0" is a valid semver range for babel-brunch
+447 silly addNameRange { name: 'babel-brunch', range: '>=6.0.4 <7.0.0', hasData: false }
+448 silly mapToRegistry name babel-brunch
+449 silly mapToRegistry using default registry
+450 silly mapToRegistry registry https://registry.npmjs.org/
+451 silly mapToRegistry data Result {
+451 silly mapToRegistry   raw: 'babel-brunch',
+451 silly mapToRegistry   scope: null,
+451 silly mapToRegistry   name: 'babel-brunch',
+451 silly mapToRegistry   rawSpec: '',
+451 silly mapToRegistry   spec: 'latest',
+451 silly mapToRegistry   type: 'tag' }
+452 silly mapToRegistry uri https://registry.npmjs.org/babel-brunch
+453 verbose addNameRange registry:https://registry.npmjs.org/babel-brunch not in flight; fetching
+454 silly resolveWithNewModule angular-messages@1.5.6 checking installable status
+455 silly cache add args [ 'angular-messages@^1.5.5', null ]
+456 verbose cache add spec angular-messages@^1.5.5
+457 silly cache add parsed spec Result {
+457 silly cache add   raw: 'angular-messages@^1.5.5',
+457 silly cache add   scope: null,
+457 silly cache add   name: 'angular-messages',
+457 silly cache add   rawSpec: '^1.5.5',
+457 silly cache add   spec: '>=1.5.5 <2.0.0',
+457 silly cache add   type: 'range' }
+458 silly addNamed angular-messages@>=1.5.5 <2.0.0
+459 verbose addNamed ">=1.5.5 <2.0.0" is a valid semver range for angular-messages
+460 silly addNameRange { name: 'angular-messages',
+460 silly addNameRange   range: '>=1.5.5 <2.0.0',
+460 silly addNameRange   hasData: false }
+461 silly mapToRegistry name angular-messages
+462 silly mapToRegistry using default registry
+463 silly mapToRegistry registry https://registry.npmjs.org/
+464 silly mapToRegistry data Result {
+464 silly mapToRegistry   raw: 'angular-messages',
+464 silly mapToRegistry   scope: null,
+464 silly mapToRegistry   name: 'angular-messages',
+464 silly mapToRegistry   rawSpec: '',
+464 silly mapToRegistry   spec: 'latest',
+464 silly mapToRegistry   type: 'tag' }
+465 silly mapToRegistry uri https://registry.npmjs.org/angular-messages
+466 verbose addNameRange registry:https://registry.npmjs.org/angular-messages not in flight; fetching
+467 silly resolveWithNewModule angular-sanitize@1.5.6 checking installable status
+468 silly cache add args [ 'angular-sanitize@^1.5.5', null ]
+469 verbose cache add spec angular-sanitize@^1.5.5
+470 silly cache add parsed spec Result {
+470 silly cache add   raw: 'angular-sanitize@^1.5.5',
+470 silly cache add   scope: null,
+470 silly cache add   name: 'angular-sanitize',
+470 silly cache add   rawSpec: '^1.5.5',
+470 silly cache add   spec: '>=1.5.5 <2.0.0',
+470 silly cache add   type: 'range' }
+471 silly addNamed angular-sanitize@>=1.5.5 <2.0.0
+472 verbose addNamed ">=1.5.5 <2.0.0" is a valid semver range for angular-sanitize
+473 silly addNameRange { name: 'angular-sanitize',
+473 silly addNameRange   range: '>=1.5.5 <2.0.0',
+473 silly addNameRange   hasData: false }
+474 silly mapToRegistry name angular-sanitize
+475 silly mapToRegistry using default registry
+476 silly mapToRegistry registry https://registry.npmjs.org/
+477 silly mapToRegistry data Result {
+477 silly mapToRegistry   raw: 'angular-sanitize',
+477 silly mapToRegistry   scope: null,
+477 silly mapToRegistry   name: 'angular-sanitize',
+477 silly mapToRegistry   rawSpec: '',
+477 silly mapToRegistry   spec: 'latest',
+477 silly mapToRegistry   type: 'tag' }
+478 silly mapToRegistry uri https://registry.npmjs.org/angular-sanitize
+479 verbose addNameRange registry:https://registry.npmjs.org/angular-sanitize not in flight; fetching
+480 http 304 https://registry.npmjs.org/statik
+481 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+481 verbose headers   via: '1.1 varnish',
+481 verbose headers   'cache-control': 'max-age=300',
+481 verbose headers   etag: '"5RL07935CDKVQ3ESQ1WJUMMLT"',
+481 verbose headers   age: '0',
+481 verbose headers   connection: 'keep-alive',
+481 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+481 verbose headers   'x-cache': 'MISS',
+481 verbose headers   'x-cache-hits': '0',
+481 verbose headers   'x-timer': 'S1464385604.154653,VS0,VE85',
+481 verbose headers   vary: 'Accept-Encoding' }
+482 silly get cb [ 304,
+482 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+482 silly get     via: '1.1 varnish',
+482 silly get     'cache-control': 'max-age=300',
+482 silly get     etag: '"5RL07935CDKVQ3ESQ1WJUMMLT"',
+482 silly get     age: '0',
+482 silly get     connection: 'keep-alive',
+482 silly get     'x-served-by': 'cache-sjc3133-SJC',
+482 silly get     'x-cache': 'MISS',
+482 silly get     'x-cache-hits': '0',
+482 silly get     'x-timer': 'S1464385604.154653,VS0,VE85',
+482 silly get     vary: 'Accept-Encoding' } ]
+483 verbose etag https://registry.npmjs.org/statik from cache
+484 verbose get saving statik to /home/dev10/.npm/registry.npmjs.org/statik/.cache.json
+485 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+486 verbose get https://registry.npmjs.org/angular-material-data-table not expired, no request
+487 silly addNameRange number 2 { name: 'angular-material-data-table',
+487 silly addNameRange   range: '>=0.10.9 <0.11.0',
+487 silly addNameRange   hasData: true }
+488 silly addNameRange versions [ 'angular-material-data-table',
+488 silly addNameRange   [ '0.8.11',
+488 silly addNameRange     '0.9.4',
+488 silly addNameRange     '0.9.7',
+488 silly addNameRange     '0.9.9',
+488 silly addNameRange     '0.9.11',
+488 silly addNameRange     '0.9.12',
+488 silly addNameRange     '0.9.13',
+488 silly addNameRange     '0.9.14',
+488 silly addNameRange     '0.9.15',
+488 silly addNameRange     '0.10.0',
+488 silly addNameRange     '0.10.1',
+488 silly addNameRange     '0.10.2',
+488 silly addNameRange     '0.10.3',
+488 silly addNameRange     '0.10.4',
+488 silly addNameRange     '0.10.5',
+488 silly addNameRange     '0.10.6',
+488 silly addNameRange     '0.10.7',
+488 silly addNameRange     '0.10.8',
+488 silly addNameRange     '0.10.9' ] ]
+489 silly addNamed angular-material-data-table@0.10.9
+490 verbose addNamed "0.10.9" is a plain semver version for angular-material-data-table
+491 verbose afterAdd /home/dev10/.npm/angular-animate/1.5.6/package/package.json written
+492 silly fetchPackageMetaData Error: No compatible version found: underscore@^2.8.3
+492 silly fetchPackageMetaData Valid install targets:
+492 silly fetchPackageMetaData 1.8.3, 1.8.2, 1.8.1, 1.8.0, 1.7.0, 1.6.0, 1.5.2, 1.5.1, 1.5.0, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3
+492 silly fetchPackageMetaData
+492 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+492 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+492 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+492 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+492 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+492 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:82:15)
+492 silly fetchPackageMetaData  error for underscore@^2.8.3 [Error: No compatible version found: underscore@^2.8.3
+492 silly fetchPackageMetaData Valid install targets:
+492 silly fetchPackageMetaData 1.8.3, 1.8.2, 1.8.1, 1.8.0, 1.7.0, 1.6.0, 1.5.2, 1.5.1, 1.5.0, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3
+492 silly fetchPackageMetaData ]
+493 http 200 https://registry.npmjs.org/angular-route
+494 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+494 verbose headers   etag: '"B7MA9L3ADDL2CRZM09ZINCH9G"',
+494 verbose headers   'content-type': 'application/json',
+494 verbose headers   'content-encoding': 'gzip',
+494 verbose headers   'cache-control': 'max-age=300',
+494 verbose headers   'content-length': '9654',
+494 verbose headers   'accept-ranges': 'bytes',
+494 verbose headers   date: 'Fri, 27 May 2016 21:46:44 GMT',
+494 verbose headers   via: '1.1 varnish',
+494 verbose headers   age: '265',
+494 verbose headers   connection: 'keep-alive',
+494 verbose headers   'x-served-by': 'cache-sjc3124-SJC',
+494 verbose headers   'x-cache': 'HIT',
+494 verbose headers   'x-cache-hits': '1',
+494 verbose headers   'x-timer': 'S1464385604.157930,VS0,VE0',
+494 verbose headers   vary: 'Accept-Encoding' }
+495 silly get cb [ 200,
+495 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+495 silly get     etag: '"B7MA9L3ADDL2CRZM09ZINCH9G"',
+495 silly get     'content-type': 'application/json',
+495 silly get     'content-encoding': 'gzip',
+495 silly get     'cache-control': 'max-age=300',
+495 silly get     'content-length': '9654',
+495 silly get     'accept-ranges': 'bytes',
+495 silly get     date: 'Fri, 27 May 2016 21:46:44 GMT',
+495 silly get     via: '1.1 varnish',
+495 silly get     age: '265',
+495 silly get     connection: 'keep-alive',
+495 silly get     'x-served-by': 'cache-sjc3124-SJC',
+495 silly get     'x-cache': 'HIT',
+495 silly get     'x-cache-hits': '1',
+495 silly get     'x-timer': 'S1464385604.157930,VS0,VE0',
+495 silly get     vary: 'Accept-Encoding' } ]
+496 verbose get saving angular-route to /home/dev10/.npm/registry.npmjs.org/angular-route/.cache.json
+497 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+498 http 304 https://registry.npmjs.org/sass-brunch
+499 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+499 verbose headers   via: '1.1 varnish',
+499 verbose headers   'cache-control': 'max-age=300',
+499 verbose headers   etag: '"272NX2IYPNE7XIWYMDJDLO0WE"',
+499 verbose headers   age: '0',
+499 verbose headers   connection: 'keep-alive',
+499 verbose headers   'x-served-by': 'cache-sjc3126-SJC',
+499 verbose headers   'x-cache': 'MISS',
+499 verbose headers   'x-cache-hits': '0',
+499 verbose headers   'x-timer': 'S1464385604.210929,VS0,VE107',
+499 verbose headers   vary: 'Accept-Encoding' }
+500 silly get cb [ 304,
+500 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+500 silly get     via: '1.1 varnish',
+500 silly get     'cache-control': 'max-age=300',
+500 silly get     etag: '"272NX2IYPNE7XIWYMDJDLO0WE"',
+500 silly get     age: '0',
+500 silly get     connection: 'keep-alive',
+500 silly get     'x-served-by': 'cache-sjc3126-SJC',
+500 silly get     'x-cache': 'MISS',
+500 silly get     'x-cache-hits': '0',
+500 silly get     'x-timer': 'S1464385604.210929,VS0,VE107',
+500 silly get     vary: 'Accept-Encoding' } ]
+501 verbose etag https://registry.npmjs.org/sass-brunch from cache
+502 verbose get saving sass-brunch to /home/dev10/.npm/registry.npmjs.org/sass-brunch/.cache.json
+503 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+504 verbose get https://registry.npmjs.org/javascript-brunch not expired, no request
+505 silly addNameRange number 2 { name: 'javascript-brunch',
+505 silly addNameRange   range: '>=2.0.0 <3.0.0',
+505 silly addNameRange   hasData: true }
+506 silly addNameRange versions [ 'javascript-brunch',
+506 silly addNameRange   [ '1.0.0',
+506 silly addNameRange     '1.1.0',
+506 silly addNameRange     '1.1.1',
+506 silly addNameRange     '1.3.0',
+506 silly addNameRange     '1.5.0',
+506 silly addNameRange     '1.5.1',
+506 silly addNameRange     '1.6.0',
+506 silly addNameRange     '1.7.0',
+506 silly addNameRange     '1.7.1',
+506 silly addNameRange     '1.8.0',
+506 silly addNameRange     '2.0.0' ] ]
+507 silly addNamed javascript-brunch@2.0.0
+508 verbose addNamed "2.0.0" is a plain semver version for javascript-brunch
+509 silly resolveWithNewModule clean-css-brunch@2.0.0 checking installable status
+510 silly cache add args [ 'clean-css-brunch@^2.0.0', null ]
+511 verbose cache add spec clean-css-brunch@^2.0.0
+512 silly cache add parsed spec Result {
+512 silly cache add   raw: 'clean-css-brunch@^2.0.0',
+512 silly cache add   scope: null,
+512 silly cache add   name: 'clean-css-brunch',
+512 silly cache add   rawSpec: '^2.0.0',
+512 silly cache add   spec: '>=2.0.0 <3.0.0',
+512 silly cache add   type: 'range' }
+513 silly addNamed clean-css-brunch@>=2.0.0 <3.0.0
+514 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for clean-css-brunch
+515 silly addNameRange { name: 'clean-css-brunch',
+515 silly addNameRange   range: '>=2.0.0 <3.0.0',
+515 silly addNameRange   hasData: false }
+516 silly mapToRegistry name clean-css-brunch
+517 silly mapToRegistry using default registry
+518 silly mapToRegistry registry https://registry.npmjs.org/
+519 silly mapToRegistry data Result {
+519 silly mapToRegistry   raw: 'clean-css-brunch',
+519 silly mapToRegistry   scope: null,
+519 silly mapToRegistry   name: 'clean-css-brunch',
+519 silly mapToRegistry   rawSpec: '',
+519 silly mapToRegistry   spec: 'latest',
+519 silly mapToRegistry   type: 'tag' }
+520 silly mapToRegistry uri https://registry.npmjs.org/clean-css-brunch
+521 verbose addNameRange registry:https://registry.npmjs.org/clean-css-brunch not in flight; fetching
+522 silly resolveWithNewModule bower@1.7.9 checking installable status
+523 silly cache add args [ 'bower@^1.7.9', null ]
+524 verbose cache add spec bower@^1.7.9
+525 silly cache add parsed spec Result {
+525 silly cache add   raw: 'bower@^1.7.9',
+525 silly cache add   scope: null,
+525 silly cache add   name: 'bower',
+525 silly cache add   rawSpec: '^1.7.9',
+525 silly cache add   spec: '>=1.7.9 <2.0.0',
+525 silly cache add   type: 'range' }
+526 silly addNamed bower@>=1.7.9 <2.0.0
+527 verbose addNamed ">=1.7.9 <2.0.0" is a valid semver range for bower
+528 silly addNameRange { name: 'bower', range: '>=1.7.9 <2.0.0', hasData: false }
+529 silly mapToRegistry name bower
+530 silly mapToRegistry using default registry
+531 silly mapToRegistry registry https://registry.npmjs.org/
+532 silly mapToRegistry data Result {
+532 silly mapToRegistry   raw: 'bower',
+532 silly mapToRegistry   scope: null,
+532 silly mapToRegistry   name: 'bower',
+532 silly mapToRegistry   rawSpec: '',
+532 silly mapToRegistry   spec: 'latest',
+532 silly mapToRegistry   type: 'tag' }
+533 silly mapToRegistry uri https://registry.npmjs.org/bower
+534 verbose addNameRange registry:https://registry.npmjs.org/bower not in flight; fetching
+535 verbose get https://registry.npmjs.org/angular-material not expired, no request
+536 silly addNameRange number 2 { name: 'angular-material',
+536 silly addNameRange   range: '>=1.0.7 <2.0.0',
+536 silly addNameRange   hasData: true }
+537 silly addNameRange versions [ 'angular-material',
+537 silly addNameRange   [ '0.7.1',
+537 silly addNameRange     '0.8.0',
+537 silly addNameRange     '0.8.1',
+537 silly addNameRange     '0.8.2',
+537 silly addNameRange     '0.8.3',
+537 silly addNameRange     '0.9.2',
+537 silly addNameRange     '0.9.3',
+537 silly addNameRange     '0.9.4',
+537 silly addNameRange     '0.9.5',
+537 silly addNameRange     '0.9.6',
+537 silly addNameRange     '0.9.7',
+537 silly addNameRange     '0.9.8',
+537 silly addNameRange     '0.10.0',
+537 silly addNameRange     '0.10.1',
+537 silly addNameRange     '0.11.0',
+537 silly addNameRange     '0.11.1',
+537 silly addNameRange     '0.11.2',
+537 silly addNameRange     '0.11.3',
+537 silly addNameRange     '0.11.4',
+537 silly addNameRange     '1.0.0',
+537 silly addNameRange     '1.0.1',
+537 silly addNameRange     '1.0.2',
+537 silly addNameRange     '1.0.4',
+537 silly addNameRange     '1.0.5',
+537 silly addNameRange     '1.0.6',
+537 silly addNameRange     '1.0.7',
+537 silly addNameRange     '1.0.8',
+537 silly addNameRange     '1.1.0-rc4-master-06e7e99' ] ]
+538 silly addNamed angular-material@1.0.8
+539 verbose addNamed "1.0.8" is a plain semver version for angular-material
+540 verbose get https://registry.npmjs.org/angular-mocks not expired, no request
+541 silly addNameRange number 2 { name: 'angular-mocks', range: '>=1.5.5 <2.0.0', hasData: true }
+542 silly addNameRange versions [ 'angular-mocks',
+542 silly addNameRange   [ '1.2.18',
+542 silly addNameRange     '1.2.19',
+542 silly addNameRange     '1.2.20',
+542 silly addNameRange     '1.2.21',
+542 silly addNameRange     '1.2.22',
+542 silly addNameRange     '1.2.25',
+542 silly addNameRange     '1.3.0-rc.5',
+542 silly addNameRange     '1.3.0',
+542 silly addNameRange     '1.3.1',
+542 silly addNameRange     '1.3.2',
+542 silly addNameRange     '1.3.3',
+542 silly addNameRange     '1.3.4-build.3588',
+542 silly addNameRange     '1.2.27',
+542 silly addNameRange     '1.3.4',
+542 silly addNameRange     '1.3.5',
+542 silly addNameRange     '1.3.6',
+542 silly addNameRange     '1.3.7',
+542 silly addNameRange     '1.2.28',
+542 silly addNameRange     '1.3.8',
+542 silly addNameRange     '1.4.0-beta.0',
+542 silly addNameRange     '1.3.9',
+542 silly addNameRange     '1.3.10',
+542 silly addNameRange     '1.4.0-beta.1',
+542 silly addNameRange     '1.4.0-beta.2',
+542 silly addNameRange     '1.3.11',
+542 silly addNameRange     '1.4.0-beta.3',
+542 silly addNameRange     '1.3.12',
+542 silly addNameRange     '1.3.13',
+542 silly addNameRange     '1.4.0-beta.4',
+542 silly addNameRange     '1.3.14',
+542 silly addNameRange     '1.4.0-beta.5',
+542 silly addNameRange     '1.4.0-beta.6',
+542 silly addNameRange     '1.3.15',
+542 silly addNameRange     '1.4.0-rc.0',
+542 silly addNameRange     '1.4.0-rc.1',
+542 silly addNameRange     '1.4.0-rc.2',
+542 silly addNameRange     '1.4.0',
+542 silly addNameRange     '1.3.16',
+542 silly addNameRange     '1.4.1',
+542 silly addNameRange     '1.4.2',
+542 silly addNameRange     '1.3.17',
+542 silly addNameRange     '1.4.3',
+542 silly addNameRange     '1.4.4',
+542 silly addNameRange     '1.3.18',
+542 silly addNameRange     '1.4.5',
+542 silly addNameRange     '1.3.19',
+542 silly addNameRange     '1.4.6',
+542 silly addNameRange     '1.5.0-beta.0',
+542 silly addNameRange     '1.2.29',
+542 silly addNameRange     '1.3.20',
+542 silly addNameRange     '1.4.7',
+542 silly addNameRange     '1.5.0-beta.2',
+542 silly addNameRange     '1.4.8',
+542 silly addNameRange     '1.5.0-rc.0',
+542 silly addNameRange     '1.5.0-rc.1',
+542 silly addNameRange     '1.4.9',
+542 silly addNameRange     '1.5.0-rc.2',
+542 silly addNameRange     '1.5.0',
+542 silly addNameRange     '1.5.1',
+542 silly addNameRange     '1.4.10',
+542 silly addNameRange     '1.5.2',
+542 silly addNameRange     '1.5.3',
+542 silly addNameRange     '1.5.5',
+542 silly addNameRange     '1.4.11',
+542 silly addNameRange     '1.5.6' ] ]
+543 silly addNamed angular-mocks@1.5.6
+544 verbose addNamed "1.5.6" is a plain semver version for angular-mocks
+545 silly resolveWithNewModule css-brunch@2.6.1 checking installable status
+546 silly cache add args [ 'css-brunch@^2.0.0', null ]
+547 verbose cache add spec css-brunch@^2.0.0
+548 silly cache add parsed spec Result {
+548 silly cache add   raw: 'css-brunch@^2.0.0',
+548 silly cache add   scope: null,
+548 silly cache add   name: 'css-brunch',
+548 silly cache add   rawSpec: '^2.0.0',
+548 silly cache add   spec: '>=2.0.0 <3.0.0',
+548 silly cache add   type: 'range' }
+549 silly addNamed css-brunch@>=2.0.0 <3.0.0
+550 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for css-brunch
+551 silly addNameRange { name: 'css-brunch', range: '>=2.0.0 <3.0.0', hasData: false }
+552 silly mapToRegistry name css-brunch
+553 silly mapToRegistry using default registry
+554 silly mapToRegistry registry https://registry.npmjs.org/
+555 silly mapToRegistry data Result {
+555 silly mapToRegistry   raw: 'css-brunch',
+555 silly mapToRegistry   scope: null,
+555 silly mapToRegistry   name: 'css-brunch',
+555 silly mapToRegistry   rawSpec: '',
+555 silly mapToRegistry   spec: 'latest',
+555 silly mapToRegistry   type: 'tag' }
+556 silly mapToRegistry uri https://registry.npmjs.org/css-brunch
+557 verbose addNameRange registry:https://registry.npmjs.org/css-brunch not in flight; fetching
+558 silly cache afterAdd angular@1.5.6
+559 verbose afterAdd /home/dev10/.npm/angular/1.5.6/package/package.json not in flight; writing
+560 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+561 verbose get https://registry.npmjs.org/babel-brunch not expired, no request
+562 silly addNameRange number 2 { name: 'babel-brunch', range: '>=6.0.4 <7.0.0', hasData: true }
+563 silly addNameRange versions [ 'babel-brunch',
+563 silly addNameRange   [ '4.0.0',
+563 silly addNameRange     '5.0.0',
+563 silly addNameRange     '5.0.1',
+563 silly addNameRange     '5.1.0',
+563 silly addNameRange     '5.1.1',
+563 silly addNameRange     '5.1.2',
+563 silly addNameRange     '6.0.0',
+563 silly addNameRange     '6.0.1',
+563 silly addNameRange     '6.0.2',
+563 silly addNameRange     '6.0.3',
+563 silly addNameRange     '6.0.4' ] ]
+564 silly addNamed babel-brunch@6.0.4
+565 verbose addNamed "6.0.4" is a plain semver version for babel-brunch
+566 verbose get https://registry.npmjs.org/angular-messages not expired, no request
+567 silly addNameRange number 2 { name: 'angular-messages',
+567 silly addNameRange   range: '>=1.5.5 <2.0.0',
+567 silly addNameRange   hasData: true }
+568 silly addNameRange versions [ 'angular-messages',
+568 silly addNameRange   [ '1.3.0-rc.5',
+568 silly addNameRange     '1.3.0',
+568 silly addNameRange     '1.3.1',
+568 silly addNameRange     '1.3.2',
+568 silly addNameRange     '1.3.3',
+568 silly addNameRange     '1.3.4',
+568 silly addNameRange     '1.3.5',
+568 silly addNameRange     '1.3.6',
+568 silly addNameRange     '1.3.7',
+568 silly addNameRange     '1.3.8',
+568 silly addNameRange     '1.4.0-beta.0',
+568 silly addNameRange     '1.3.9',
+568 silly addNameRange     '1.3.10',
+568 silly addNameRange     '1.4.0-beta.1',
+568 silly addNameRange     '1.4.0-beta.2',
+568 silly addNameRange     '1.3.11',
+568 silly addNameRange     '1.4.0-beta.3',
+568 silly addNameRange     '1.3.12',
+568 silly addNameRange     '1.3.13',
+568 silly addNameRange     '1.4.0-beta.4',
+568 silly addNameRange     '1.3.14',
+568 silly addNameRange     '1.4.0-beta.5',
+568 silly addNameRange     '1.4.0-beta.6',
+568 silly addNameRange     '1.3.15',
+568 silly addNameRange     '1.4.0-rc.0',
+568 silly addNameRange     '1.4.0-rc.1',
+568 silly addNameRange     '1.4.0-rc.2',
+568 silly addNameRange     '1.4.0',
+568 silly addNameRange     '1.3.16',
+568 silly addNameRange     '1.4.1',
+568 silly addNameRange     '1.4.2',
+568 silly addNameRange     '1.3.17',
+568 silly addNameRange     '1.4.3',
+568 silly addNameRange     '1.4.4',
+568 silly addNameRange     '1.3.18',
+568 silly addNameRange     '1.4.5',
+568 silly addNameRange     '1.3.19',
+568 silly addNameRange     '1.4.6',
+568 silly addNameRange     '1.5.0-beta.0',
+568 silly addNameRange     '1.3.20',
+568 silly addNameRange     '1.4.7',
+568 silly addNameRange     '1.5.0-beta.2',
+568 silly addNameRange     '1.4.8',
+568 silly addNameRange     '1.5.0-rc.0',
+568 silly addNameRange     '1.5.0-rc.1',
+568 silly addNameRange     '1.4.9',
+568 silly addNameRange     '1.5.0-rc.2',
+568 silly addNameRange     '1.5.0',
+568 silly addNameRange     '1.5.1',
+568 silly addNameRange     '1.4.10',
+568 silly addNameRange     '1.5.2',
+568 silly addNameRange     '1.5.3',
+568 silly addNameRange     '1.5.5',
+568 silly addNameRange     '1.4.11',
+568 silly addNameRange     '1.5.6' ] ]
+569 silly addNamed angular-messages@1.5.6
+570 verbose addNamed "1.5.6" is a plain semver version for angular-messages
+571 verbose get https://registry.npmjs.org/angular-sanitize not expired, no request
+572 silly addNameRange number 2 { name: 'angular-sanitize',
+572 silly addNameRange   range: '>=1.5.5 <2.0.0',
+572 silly addNameRange   hasData: true }
+573 silly addNameRange versions [ 'angular-sanitize',
+573 silly addNameRange   [ '0.0.1',
+573 silly addNameRange     '1.3.0-rc.5',
+573 silly addNameRange     '1.3.0',
+573 silly addNameRange     '1.3.1',
+573 silly addNameRange     '1.3.2',
+573 silly addNameRange     '1.3.3',
+573 silly addNameRange     '1.3.4-build.3587',
+573 silly addNameRange     '1.2.27',
+573 silly addNameRange     '1.3.4',
+573 silly addNameRange     '1.3.5',
+573 silly addNameRange     '1.3.6',
+573 silly addNameRange     '1.3.7',
+573 silly addNameRange     '1.2.28',
+573 silly addNameRange     '1.3.8',
+573 silly addNameRange     '1.4.0-beta.0',
+573 silly addNameRange     '1.3.9',
+573 silly addNameRange     '1.3.10',
+573 silly addNameRange     '1.4.0-beta.1',
+573 silly addNameRange     '1.4.0-beta.2',
+573 silly addNameRange     '1.3.11',
+573 silly addNameRange     '1.4.0-beta.3',
+573 silly addNameRange     '1.3.12',
+573 silly addNameRange     '1.3.13',
+573 silly addNameRange     '1.4.0-beta.4',
+573 silly addNameRange     '1.3.14',
+573 silly addNameRange     '1.4.0-beta.5',
+573 silly addNameRange     '1.4.0-beta.6',
+573 silly addNameRange     '1.3.15',
+573 silly addNameRange     '1.4.0-rc.0',
+573 silly addNameRange     '1.4.0-rc.1',
+573 silly addNameRange     '1.4.0-rc.2',
+573 silly addNameRange     '1.4.0',
+573 silly addNameRange     '1.3.16',
+573 silly addNameRange     '1.4.1',
+573 silly addNameRange     '1.4.2',
+573 silly addNameRange     '1.3.17',
+573 silly addNameRange     '1.4.3',
+573 silly addNameRange     '1.4.4',
+573 silly addNameRange     '1.3.18',
+573 silly addNameRange     '1.4.5',
+573 silly addNameRange     '1.3.19',
+573 silly addNameRange     '1.4.6',
+573 silly addNameRange     '1.5.0-beta.0',
+573 silly addNameRange     '1.2.29',
+573 silly addNameRange     '1.3.20',
+573 silly addNameRange     '1.4.7',
+573 silly addNameRange     '1.5.0-beta.2',
+573 silly addNameRange     '1.4.8',
+573 silly addNameRange     '1.5.0-rc.0',
+573 silly addNameRange     '1.5.0-rc.1',
+573 silly addNameRange     '1.4.9',
+573 silly addNameRange     '1.5.0-rc.2',
+573 silly addNameRange     '1.5.0',
+573 silly addNameRange     '1.5.1',
+573 silly addNameRange     '1.4.10',
+573 silly addNameRange     '1.5.2',
+573 silly addNameRange     '1.5.3',
+573 silly addNameRange     '1.5.5',
+573 silly addNameRange     '1.4.11',
+573 silly addNameRange     '1.5.6' ] ]
+574 silly addNamed angular-sanitize@1.5.6
+575 verbose addNamed "1.5.6" is a plain semver version for angular-sanitize
+576 silly resolveWithNewModule static-jade-brunch@1.8.0 checking installable status
+577 silly cache add args [ 'static-jade-brunch@1.8.0', null ]
+578 verbose cache add spec static-jade-brunch@1.8.0
+579 silly cache add parsed spec Result {
+579 silly cache add   raw: 'static-jade-brunch@1.8.0',
+579 silly cache add   scope: null,
+579 silly cache add   name: 'static-jade-brunch',
+579 silly cache add   rawSpec: '1.8.0',
+579 silly cache add   spec: '1.8.0',
+579 silly cache add   type: 'version' }
+580 silly addNamed static-jade-brunch@1.8.0
+581 verbose addNamed "1.8.0" is a plain semver version for static-jade-brunch
+582 silly mapToRegistry name static-jade-brunch
+583 silly mapToRegistry using default registry
+584 silly mapToRegistry registry https://registry.npmjs.org/
+585 silly mapToRegistry data Result {
+585 silly mapToRegistry   raw: 'static-jade-brunch',
+585 silly mapToRegistry   scope: null,
+585 silly mapToRegistry   name: 'static-jade-brunch',
+585 silly mapToRegistry   rawSpec: '',
+585 silly mapToRegistry   spec: 'latest',
+585 silly mapToRegistry   type: 'tag' }
+586 silly mapToRegistry uri https://registry.npmjs.org/static-jade-brunch
+587 verbose addNameVersion registry:https://registry.npmjs.org/static-jade-brunch not in flight; fetching
+588 silly resolveWithNewModule jade-brunch@2.0.0 checking installable status
+589 silly cache add args [ 'jade-brunch@2.0.0', null ]
+590 verbose cache add spec jade-brunch@2.0.0
+591 silly cache add parsed spec Result {
+591 silly cache add   raw: 'jade-brunch@2.0.0',
+591 silly cache add   scope: null,
+591 silly cache add   name: 'jade-brunch',
+591 silly cache add   rawSpec: '2.0.0',
+591 silly cache add   spec: '2.0.0',
+591 silly cache add   type: 'version' }
+592 silly addNamed jade-brunch@2.0.0
+593 verbose addNamed "2.0.0" is a plain semver version for jade-brunch
+594 silly mapToRegistry name jade-brunch
+595 silly mapToRegistry using default registry
+596 silly mapToRegistry registry https://registry.npmjs.org/
+597 silly mapToRegistry data Result {
+597 silly mapToRegistry   raw: 'jade-brunch',
+597 silly mapToRegistry   scope: null,
+597 silly mapToRegistry   name: 'jade-brunch',
+597 silly mapToRegistry   rawSpec: '',
+597 silly mapToRegistry   spec: 'latest',
+597 silly mapToRegistry   type: 'tag' }
+598 silly mapToRegistry uri https://registry.npmjs.org/jade-brunch
+599 verbose addNameVersion registry:https://registry.npmjs.org/jade-brunch not in flight; fetching
+600 silly resolveWithNewModule angular-aria@1.5.6 checking installable status
+601 silly cache add args [ 'angular-aria@^1.5.5', null ]
+602 verbose cache add spec angular-aria@^1.5.5
+603 silly cache add parsed spec Result {
+603 silly cache add   raw: 'angular-aria@^1.5.5',
+603 silly cache add   scope: null,
+603 silly cache add   name: 'angular-aria',
+603 silly cache add   rawSpec: '^1.5.5',
+603 silly cache add   spec: '>=1.5.5 <2.0.0',
+603 silly cache add   type: 'range' }
+604 silly addNamed angular-aria@>=1.5.5 <2.0.0
+605 verbose addNamed ">=1.5.5 <2.0.0" is a valid semver range for angular-aria
+606 silly addNameRange { name: 'angular-aria', range: '>=1.5.5 <2.0.0', hasData: false }
+607 silly mapToRegistry name angular-aria
+608 silly mapToRegistry using default registry
+609 silly mapToRegistry registry https://registry.npmjs.org/
+610 silly mapToRegistry data Result {
+610 silly mapToRegistry   raw: 'angular-aria',
+610 silly mapToRegistry   scope: null,
+610 silly mapToRegistry   name: 'angular-aria',
+610 silly mapToRegistry   rawSpec: '',
+610 silly mapToRegistry   spec: 'latest',
+610 silly mapToRegistry   type: 'tag' }
+611 silly mapToRegistry uri https://registry.npmjs.org/angular-aria
+612 verbose addNameRange registry:https://registry.npmjs.org/angular-aria not in flight; fetching
+613 silly resolveWithNewModule auto-reload-brunch@2.7.1 checking installable status
+614 silly cache add args [ 'auto-reload-brunch@^2.0.0', null ]
+615 verbose cache add spec auto-reload-brunch@^2.0.0
+616 silly cache add parsed spec Result {
+616 silly cache add   raw: 'auto-reload-brunch@^2.0.0',
+616 silly cache add   scope: null,
+616 silly cache add   name: 'auto-reload-brunch',
+616 silly cache add   rawSpec: '^2.0.0',
+616 silly cache add   spec: '>=2.0.0 <3.0.0',
+616 silly cache add   type: 'range' }
+617 silly addNamed auto-reload-brunch@>=2.0.0 <3.0.0
+618 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for auto-reload-brunch
+619 silly addNameRange { name: 'auto-reload-brunch',
+619 silly addNameRange   range: '>=2.0.0 <3.0.0',
+619 silly addNameRange   hasData: false }
+620 silly mapToRegistry name auto-reload-brunch
+621 silly mapToRegistry using default registry
+622 silly mapToRegistry registry https://registry.npmjs.org/
+623 silly mapToRegistry data Result {
+623 silly mapToRegistry   raw: 'auto-reload-brunch',
+623 silly mapToRegistry   scope: null,
+623 silly mapToRegistry   name: 'auto-reload-brunch',
+623 silly mapToRegistry   rawSpec: '',
+623 silly mapToRegistry   spec: 'latest',
+623 silly mapToRegistry   type: 'tag' }
+624 silly mapToRegistry uri https://registry.npmjs.org/auto-reload-brunch
+625 verbose addNameRange registry:https://registry.npmjs.org/auto-reload-brunch not in flight; fetching
+626 silly cache afterAdd angular-material-data-table@0.10.9
+627 verbose afterAdd /home/dev10/.npm/angular-material-data-table/0.10.9/package/package.json not in flight; writing
+628 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+629 verbose get https://registry.npmjs.org/clean-css-brunch not expired, no request
+630 silly addNameRange number 2 { name: 'clean-css-brunch',
+630 silly addNameRange   range: '>=2.0.0 <3.0.0',
+630 silly addNameRange   hasData: true }
+631 silly addNameRange versions [ 'clean-css-brunch',
+631 silly addNameRange   [ '1.0.0',
+631 silly addNameRange     '1.1.0',
+631 silly addNameRange     '1.1.1',
+631 silly addNameRange     '1.3.0',
+631 silly addNameRange     '1.4.0',
+631 silly addNameRange     '1.5.0',
+631 silly addNameRange     '1.5.1',
+631 silly addNameRange     '1.6.0',
+631 silly addNameRange     '1.7.0',
+631 silly addNameRange     '1.7.1',
+631 silly addNameRange     '1.7.2',
+631 silly addNameRange     '1.8.0',
+631 silly addNameRange     '2.0.0' ] ]
+632 silly addNamed clean-css-brunch@2.0.0
+633 verbose addNamed "2.0.0" is a plain semver version for clean-css-brunch
+634 verbose get https://registry.npmjs.org/bower not expired, no request
+635 silly addNameRange number 2 { name: 'bower', range: '>=1.7.9 <2.0.0', hasData: true }
+636 silly addNameRange versions [ 'bower',
+636 silly addNameRange   [ '0.1.0',
+636 silly addNameRange     '0.1.2',
+636 silly addNameRange     '0.1.3',
+636 silly addNameRange     '0.2.0',
+636 silly addNameRange     '0.3.0',
+636 silly addNameRange     '0.3.1',
+636 silly addNameRange     '0.3.2',
+636 silly addNameRange     '0.4.0',
+636 silly addNameRange     '0.5.0',
+636 silly addNameRange     '0.5.1',
+636 silly addNameRange     '0.6.0',
+636 silly addNameRange     '0.6.1',
+636 silly addNameRange     '0.6.2',
+636 silly addNameRange     '0.6.3',
+636 silly addNameRange     '0.6.4',
+636 silly addNameRange     '0.6.5',
+636 silly addNameRange     '0.6.6',
+636 silly addNameRange     '0.6.7',
+636 silly addNameRange     '0.6.8',
+636 silly addNameRange     '0.7.0',
+636 silly addNameRange     '0.7.1',
+636 silly addNameRange     '0.8.0',
+636 silly addNameRange     '0.8.1',
+636 silly addNameRange     '0.8.2',
+636 silly addNameRange     '0.8.3',
+636 silly addNameRange     '0.8.4',
+636 silly addNameRange     '0.8.5',
+636 silly addNameRange     '0.8.6',
+636 silly addNameRange     '0.9.0',
+636 silly addNameRange     '0.9.1',
+636 silly addNameRange     '0.9.2',
+636 silly addNameRange     '0.10.0',
+636 silly addNameRange     '1.0.0',
+636 silly addNameRange     '1.0.1',
+636 silly addNameRange     '1.0.2',
+636 silly addNameRange     '1.0.3',
+636 silly addNameRange     '1.1.0',
+636 silly addNameRange     '1.1.1',
+636 silly addNameRange     '1.1.2',
+636 silly addNameRange     '1.2.0',
+636 silly addNameRange     '1.2.1',
+636 silly addNameRange     '1.2.2',
+636 silly addNameRange     '1.2.3',
+636 silly addNameRange     '1.2.4',
+636 silly addNameRange     '1.2.5',
+636 silly addNameRange     '1.2.6',
+636 silly addNameRange     '1.2.7',
+636 silly addNameRange     '1.2.8',
+636 silly addNameRange     '1.3.0',
+636 silly addNameRange     '1.3.1',
+636 silly addNameRange     '1.3.2',
+636 silly addNameRange     '1.3.3',
+636 silly addNameRange     '1.3.4',
+636 silly addNameRange     '1.3.5',
+636 silly addNameRange     '1.3.6',
+636 silly addNameRange     '1.3.7',
+636 silly addNameRange     '1.3.8',
+636 silly addNameRange     '1.3.9',
+636 silly addNameRange     '1.3.10',
+636 silly addNameRange     '1.3.11',
+636 silly addNameRange     '1.3.12',
+636 silly addNameRange     '1.4.0',
+636 silly addNameRange     '1.4.1',
+636 silly addNameRange     '1.5.0',
+636 silly addNameRange     '1.5.1',
+636 silly addNameRange     '1.5.2',
+636 silly addNameRange     '1.5.3',
+636 silly addNameRange     '1.6.2',
+636 silly addNameRange     '1.6.3',
+636 silly addNameRange     '1.6.4',
+636 silly addNameRange     '1.6.5',
+636 silly addNameRange     '1.5.4',
+636 silly addNameRange     '1.4.2',
+636 silly addNameRange     '1.6.6',
+636 silly addNameRange     '1.6.7',
+636 silly addNameRange     '1.6.8',
+636 silly addNameRange     '1.6.9',
+636 silly addNameRange     '1.7.0',
+636 silly addNameRange     '1.7.1',
+636 silly addNameRange     '1.7.2',
+636 silly addNameRange     '1.7.5',
+636 silly addNameRange     '1.7.6',
+636 silly addNameRange     '1.7.7',
+636 silly addNameRange     '1.7.8',
+636 silly addNameRange     '1.7.9' ] ]
+637 silly addNamed bower@1.7.9
+638 verbose addNamed "1.7.9" is a plain semver version for bower
+639 silly resolveWithNewModule statik@1.4.6 checking installable status
+640 silly cache add args [ 'statik@>= 1.1.0', null ]
+641 verbose cache add spec statik@>= 1.1.0
+642 silly cache add parsed spec Result {
+642 silly cache add   raw: 'statik@>= 1.1.0',
+642 silly cache add   scope: null,
+642 silly cache add   name: 'statik',
+642 silly cache add   rawSpec: '>= 1.1.0',
+642 silly cache add   spec: '>=1.1.0',
+642 silly cache add   type: 'range' }
+643 silly addNamed statik@>=1.1.0
+644 verbose addNamed ">=1.1.0" is a valid semver range for statik
+645 silly addNameRange { name: 'statik', range: '>=1.1.0', hasData: false }
+646 silly mapToRegistry name statik
+647 silly mapToRegistry using default registry
+648 silly mapToRegistry registry https://registry.npmjs.org/
+649 silly mapToRegistry data Result {
+649 silly mapToRegistry   raw: 'statik',
+649 silly mapToRegistry   scope: null,
+649 silly mapToRegistry   name: 'statik',
+649 silly mapToRegistry   rawSpec: '',
+649 silly mapToRegistry   spec: 'latest',
+649 silly mapToRegistry   type: 'tag' }
+650 silly mapToRegistry uri https://registry.npmjs.org/statik
+651 verbose addNameRange registry:https://registry.npmjs.org/statik not in flight; fetching
+652 silly cache afterAdd javascript-brunch@2.0.0
+653 verbose afterAdd /home/dev10/.npm/javascript-brunch/2.0.0/package/package.json not in flight; writing
+654 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+655 verbose get https://registry.npmjs.org/css-brunch not expired, no request
+656 silly addNameRange number 2 { name: 'css-brunch', range: '>=2.0.0 <3.0.0', hasData: true }
+657 silly addNameRange versions [ 'css-brunch',
+657 silly addNameRange   [ '1.0.0',
+657 silly addNameRange     '1.1.0',
+657 silly addNameRange     '1.1.1',
+657 silly addNameRange     '1.3.0',
+657 silly addNameRange     '1.5.0',
+657 silly addNameRange     '1.5.1',
+657 silly addNameRange     '1.6.0',
+657 silly addNameRange     '1.7.0',
+657 silly addNameRange     '2.0.0',
+657 silly addNameRange     '2.6.0',
+657 silly addNameRange     '2.6.1' ] ]
+658 silly addNamed css-brunch@2.6.1
+659 verbose addNamed "2.6.1" is a plain semver version for css-brunch
+660 verbose afterAdd /home/dev10/.npm/angular/1.5.6/package/package.json written
+661 silly cache afterAdd angular-material@1.0.8
+662 verbose afterAdd /home/dev10/.npm/angular-material/1.0.8/package/package.json not in flight; writing
+663 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+664 silly cache afterAdd angular-mocks@1.5.6
+665 verbose afterAdd /home/dev10/.npm/angular-mocks/1.5.6/package/package.json not in flight; writing
+666 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+667 verbose get https://registry.npmjs.org/jade-brunch not expired, no request
+668 verbose get https://registry.npmjs.org/static-jade-brunch not expired, no request
+669 silly resolveWithNewModule angular-route@1.5.6 checking installable status
+670 silly cache add args [ 'angular-route@^1.5.5', null ]
+671 verbose cache add spec angular-route@^1.5.5
+672 silly cache add parsed spec Result {
+672 silly cache add   raw: 'angular-route@^1.5.5',
+672 silly cache add   scope: null,
+672 silly cache add   name: 'angular-route',
+672 silly cache add   rawSpec: '^1.5.5',
+672 silly cache add   spec: '>=1.5.5 <2.0.0',
+672 silly cache add   type: 'range' }
+673 silly addNamed angular-route@>=1.5.5 <2.0.0
+674 verbose addNamed ">=1.5.5 <2.0.0" is a valid semver range for angular-route
+675 silly addNameRange { name: 'angular-route',
+675 silly addNameRange   range: '>=1.5.5 <2.0.0',
+675 silly addNameRange   hasData: false }
+676 silly mapToRegistry name angular-route
+677 silly mapToRegistry using default registry
+678 silly mapToRegistry registry https://registry.npmjs.org/
+679 silly mapToRegistry data Result {
+679 silly mapToRegistry   raw: 'angular-route',
+679 silly mapToRegistry   scope: null,
+679 silly mapToRegistry   name: 'angular-route',
+679 silly mapToRegistry   rawSpec: '',
+679 silly mapToRegistry   spec: 'latest',
+679 silly mapToRegistry   type: 'tag' }
+680 silly mapToRegistry uri https://registry.npmjs.org/angular-route
+681 verbose addNameRange registry:https://registry.npmjs.org/angular-route not in flight; fetching
+682 silly resolveWithNewModule sass-brunch@2.6.3 checking installable status
+683 silly cache add args [ 'sass-brunch@^2.6.3', null ]
+684 verbose cache add spec sass-brunch@^2.6.3
+685 silly cache add parsed spec Result {
+685 silly cache add   raw: 'sass-brunch@^2.6.3',
+685 silly cache add   scope: null,
+685 silly cache add   name: 'sass-brunch',
+685 silly cache add   rawSpec: '^2.6.3',
+685 silly cache add   spec: '>=2.6.3 <3.0.0',
+685 silly cache add   type: 'range' }
+686 silly addNamed sass-brunch@>=2.6.3 <3.0.0
+687 verbose addNamed ">=2.6.3 <3.0.0" is a valid semver range for sass-brunch
+688 silly addNameRange { name: 'sass-brunch', range: '>=2.6.3 <3.0.0', hasData: false }
+689 silly mapToRegistry name sass-brunch
+690 silly mapToRegistry using default registry
+691 silly mapToRegistry registry https://registry.npmjs.org/
+692 silly mapToRegistry data Result {
+692 silly mapToRegistry   raw: 'sass-brunch',
+692 silly mapToRegistry   scope: null,
+692 silly mapToRegistry   name: 'sass-brunch',
+692 silly mapToRegistry   rawSpec: '',
+692 silly mapToRegistry   spec: 'latest',
+692 silly mapToRegistry   type: 'tag' }
+693 silly mapToRegistry uri https://registry.npmjs.org/sass-brunch
+694 verbose addNameRange registry:https://registry.npmjs.org/sass-brunch not in flight; fetching
+695 silly cache afterAdd babel-brunch@6.0.4
+696 verbose afterAdd /home/dev10/.npm/babel-brunch/6.0.4/package/package.json not in flight; writing
+697 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+698 silly cache afterAdd angular-messages@1.5.6
+699 verbose afterAdd /home/dev10/.npm/angular-messages/1.5.6/package/package.json not in flight; writing
+700 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+701 silly cache afterAdd angular-sanitize@1.5.6
+702 verbose afterAdd /home/dev10/.npm/angular-sanitize/1.5.6/package/package.json not in flight; writing
+703 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+704 verbose get https://registry.npmjs.org/angular-aria not expired, no request
+705 silly addNameRange number 2 { name: 'angular-aria', range: '>=1.5.5 <2.0.0', hasData: true }
+706 silly addNameRange versions [ 'angular-aria',
+706 silly addNameRange   [ '1.3.0-rc.5',
+706 silly addNameRange     '1.3.0',
+706 silly addNameRange     '1.3.1',
+706 silly addNameRange     '1.3.2',
+706 silly addNameRange     '1.3.3',
+706 silly addNameRange     '1.3.4',
+706 silly addNameRange     '1.3.5',
+706 silly addNameRange     '1.3.6',
+706 silly addNameRange     '1.3.7',
+706 silly addNameRange     '1.3.8',
+706 silly addNameRange     '1.4.0-beta.0',
+706 silly addNameRange     '1.3.9',
+706 silly addNameRange     '1.3.10',
+706 silly addNameRange     '1.4.0-beta.1',
+706 silly addNameRange     '1.4.0-beta.2',
+706 silly addNameRange     '1.3.11',
+706 silly addNameRange     '1.4.0-beta.3',
+706 silly addNameRange     '1.3.12',
+706 silly addNameRange     '1.3.13',
+706 silly addNameRange     '1.4.0-beta.4',
+706 silly addNameRange     '1.3.14',
+706 silly addNameRange     '1.4.0-beta.5',
+706 silly addNameRange     '1.4.0-beta.6',
+706 silly addNameRange     '1.3.15',
+706 silly addNameRange     '1.4.0-rc.0',
+706 silly addNameRange     '1.4.0-rc.1',
+706 silly addNameRange     '1.4.0-rc.2',
+706 silly addNameRange     '1.4.0',
+706 silly addNameRange     '1.3.16',
+706 silly addNameRange     '1.4.1',
+706 silly addNameRange     '1.4.2',
+706 silly addNameRange     '1.3.17',
+706 silly addNameRange     '1.4.3',
+706 silly addNameRange     '1.4.4',
+706 silly addNameRange     '1.3.18',
+706 silly addNameRange     '1.4.5',
+706 silly addNameRange     '1.3.19',
+706 silly addNameRange     '1.4.6',
+706 silly addNameRange     '1.5.0-beta.0',
+706 silly addNameRange     '1.3.20',
+706 silly addNameRange     '1.4.7',
+706 silly addNameRange     '1.5.0-beta.2',
+706 silly addNameRange     '1.4.8',
+706 silly addNameRange     '1.5.0-rc.0',
+706 silly addNameRange     '1.5.0-rc.1',
+706 silly addNameRange     '1.4.9',
+706 silly addNameRange     '1.5.0-rc.2',
+706 silly addNameRange     '1.5.0',
+706 silly addNameRange     '1.5.1',
+706 silly addNameRange     '1.4.10',
+706 silly addNameRange     '1.5.2',
+706 silly addNameRange     '1.5.3',
+706 silly addNameRange     '1.5.5',
+706 silly addNameRange     '1.4.11',
+706 silly addNameRange     '1.5.6' ] ]
+707 silly addNamed angular-aria@1.5.6
+708 verbose addNamed "1.5.6" is a plain semver version for angular-aria
+709 verbose get https://registry.npmjs.org/auto-reload-brunch not expired, no request
+710 silly addNameRange number 2 { name: 'auto-reload-brunch',
+710 silly addNameRange   range: '>=2.0.0 <3.0.0',
+710 silly addNameRange   hasData: true }
+711 silly addNameRange versions [ 'auto-reload-brunch',
+711 silly addNameRange   [ '1.2.0',
+711 silly addNameRange     '1.3.0',
+711 silly addNameRange     '1.3.1',
+711 silly addNameRange     '1.3.2',
+711 silly addNameRange     '1.4.0',
+711 silly addNameRange     '1.5.0',
+711 silly addNameRange     '1.5.1',
+711 silly addNameRange     '1.5.2',
+711 silly addNameRange     '1.6.0',
+711 silly addNameRange     '1.6.1',
+711 silly addNameRange     '1.6.2',
+711 silly addNameRange     '1.6.3',
+711 silly addNameRange     '1.6.4',
+711 silly addNameRange     '1.6.5',
+711 silly addNameRange     '1.7.0',
+711 silly addNameRange     '1.7.1',
+711 silly addNameRange     '1.7.2',
+711 silly addNameRange     '1.7.3',
+711 silly addNameRange     '1.7.4',
+711 silly addNameRange     '1.7.5',
+711 silly addNameRange     '1.7.6',
+711 silly addNameRange     '1.7.7',
+711 silly addNameRange     '1.7.8',
+711 silly addNameRange     '1.8.0',
+711 silly addNameRange     '1.8.1',
+711 silly addNameRange     '2.0.0',
+711 silly addNameRange     '2.1.0',
+711 silly addNameRange     '2.2.0',
+711 silly addNameRange     '2.7.0',
+711 silly addNameRange     '2.7.1' ] ]
+712 silly addNamed auto-reload-brunch@2.7.1
+713 verbose addNamed "2.7.1" is a plain semver version for auto-reload-brunch
+714 verbose afterAdd /home/dev10/.npm/angular-material-data-table/0.10.9/package/package.json written
+715 http 304 https://registry.npmjs.org/brunch
+716 verbose headers { date: 'Fri, 27 May 2016 21:46:44 GMT',
+716 verbose headers   via: '1.1 varnish',
+716 verbose headers   'cache-control': 'max-age=300',
+716 verbose headers   etag: '"U69NPPP8R1EYMUG754LYMPSE"',
+716 verbose headers   age: '0',
+716 verbose headers   connection: 'keep-alive',
+716 verbose headers   'x-served-by': 'cache-sjc3133-SJC',
+716 verbose headers   'x-cache': 'HIT',
+716 verbose headers   'x-cache-hits': '1',
+716 verbose headers   'x-timer': 'S1464385604.221630,VS0,VE347',
+716 verbose headers   vary: 'Accept-Encoding' }
+717 silly get cb [ 304,
+717 silly get   { date: 'Fri, 27 May 2016 21:46:44 GMT',
+717 silly get     via: '1.1 varnish',
+717 silly get     'cache-control': 'max-age=300',
+717 silly get     etag: '"U69NPPP8R1EYMUG754LYMPSE"',
+717 silly get     age: '0',
+717 silly get     connection: 'keep-alive',
+717 silly get     'x-served-by': 'cache-sjc3133-SJC',
+717 silly get     'x-cache': 'HIT',
+717 silly get     'x-cache-hits': '1',
+717 silly get     'x-timer': 'S1464385604.221630,VS0,VE347',
+717 silly get     vary: 'Accept-Encoding' } ]
+718 verbose etag https://registry.npmjs.org/brunch from cache
+719 verbose get saving brunch to /home/dev10/.npm/registry.npmjs.org/brunch/.cache.json
+720 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+721 verbose get https://registry.npmjs.org/statik not expired, no request
+722 silly addNameRange number 2 { name: 'statik', range: '>=1.1.0', hasData: true }
+723 silly addNameRange versions [ 'statik',
+723 silly addNameRange   [ '1.0.0',
+723 silly addNameRange     '1.0.1',
+723 silly addNameRange     '1.1.0',
+723 silly addNameRange     '1.1.1',
+723 silly addNameRange     '1.1.2',
+723 silly addNameRange     '1.1.3',
+723 silly addNameRange     '1.1.4',
+723 silly addNameRange     '1.2.0',
+723 silly addNameRange     '1.2.1',
+723 silly addNameRange     '1.2.3',
+723 silly addNameRange     '1.2.4',
+723 silly addNameRange     '1.2.5',
+723 silly addNameRange     '1.4.0',
+723 silly addNameRange     '1.4.1',
+723 silly addNameRange     '1.4.2',
+723 silly addNameRange     '1.4.3',
+723 silly addNameRange     '1.4.4',
+723 silly addNameRange     '1.4.5',
+723 silly addNameRange     '1.4.6' ] ]
+724 silly addNamed statik@1.4.6
+725 verbose addNamed "1.4.6" is a plain semver version for statik
+726 verbose afterAdd /home/dev10/.npm/javascript-brunch/2.0.0/package/package.json written
+727 silly cache afterAdd clean-css-brunch@2.0.0
+728 verbose afterAdd /home/dev10/.npm/clean-css-brunch/2.0.0/package/package.json not in flight; writing
+729 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+730 verbose afterAdd /home/dev10/.npm/angular-mocks/1.5.6/package/package.json written
+731 silly cache afterAdd css-brunch@2.6.1
+732 verbose afterAdd /home/dev10/.npm/css-brunch/2.6.1/package/package.json not in flight; writing
+733 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+734 verbose afterAdd /home/dev10/.npm/angular-material/1.0.8/package/package.json written
+735 silly cache afterAdd bower@1.7.9
+736 verbose afterAdd /home/dev10/.npm/bower/1.7.9/package/package.json not in flight; writing
+737 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+738 verbose get https://registry.npmjs.org/sass-brunch not expired, no request
+739 silly addNameRange number 2 { name: 'sass-brunch', range: '>=2.6.3 <3.0.0', hasData: true }
+740 silly addNameRange versions [ 'sass-brunch',
+740 silly addNameRange   [ '1.0.0',
+740 silly addNameRange     '1.1.0',
+740 silly addNameRange     '1.1.1',
+740 silly addNameRange     '1.1.2',
+740 silly addNameRange     '1.1.3',
+740 silly addNameRange     '1.3.0',
+740 silly addNameRange     '1.3.1',
+740 silly addNameRange     '1.4.0',
+740 silly addNameRange     '1.4.1',
+740 silly addNameRange     '1.4.2',
+740 silly addNameRange     '1.5.0',
+740 silly addNameRange     '1.5.1',
+740 silly addNameRange     '1.5.2',
+740 silly addNameRange     '1.6.0',
+740 silly addNameRange     '1.6.1',
+740 silly addNameRange     '1.7.0',
+740 silly addNameRange     '1.7.1',
+740 silly addNameRange     '1.7.2',
+740 silly addNameRange     '1.8.0',
+740 silly addNameRange     '1.8.1',
+740 silly addNameRange     '1.8.2',
+740 silly addNameRange     '1.8.3',
+740 silly addNameRange     '1.8.4',
+740 silly addNameRange     '1.8.5',
+740 silly addNameRange     '1.8.6',
+740 silly addNameRange     '1.8.7',
+740 silly addNameRange     '1.8.8',
+740 silly addNameRange     '1.8.9',
+740 silly addNameRange     '1.8.10',
+740 silly addNameRange     '1.8.11',
+740 silly addNameRange     '1.9.0',
+740 silly addNameRange     '1.9.1',
+740 silly addNameRange     '1.9.2',
+740 silly addNameRange     '2.0.0',
+740 silly addNameRange     '2.6.0',
+740 silly addNameRange     '2.6.1',
+740 silly addNameRange     '2.6.2',
+740 silly addNameRange     '2.6.3' ] ]
+741 silly addNamed sass-brunch@2.6.3
+742 verbose addNamed "2.6.3" is a plain semver version for sass-brunch
+743 verbose get https://registry.npmjs.org/angular-route not expired, no request
+744 silly addNameRange number 2 { name: 'angular-route', range: '>=1.5.5 <2.0.0', hasData: true }
+745 silly addNameRange versions [ 'angular-route',
+745 silly addNameRange   [ '1.2.17-build.163.1',
+745 silly addNameRange     '1.3.0-rc.5',
+745 silly addNameRange     '1.3.0',
+745 silly addNameRange     '1.3.1',
+745 silly addNameRange     '1.3.2',
+745 silly addNameRange     '1.3.3',
+745 silly addNameRange     '1.3.4-build.3588',
+745 silly addNameRange     '1.2.27',
+745 silly addNameRange     '1.3.4',
+745 silly addNameRange     '1.3.5',
+745 silly addNameRange     '1.3.6',
+745 silly addNameRange     '1.3.7',
+745 silly addNameRange     '1.2.28',
+745 silly addNameRange     '1.3.8',
+745 silly addNameRange     '1.4.0-beta.0',
+745 silly addNameRange     '1.3.9',
+745 silly addNameRange     '1.3.10',
+745 silly addNameRange     '1.4.0-beta.1',
+745 silly addNameRange     '1.4.0-beta.2',
+745 silly addNameRange     '1.3.11',
+745 silly addNameRange     '1.4.0-beta.3',
+745 silly addNameRange     '1.3.12',
+745 silly addNameRange     '1.3.13',
+745 silly addNameRange     '1.4.0-beta.4',
+745 silly addNameRange     '1.3.14',
+745 silly addNameRange     '1.4.0-beta.5',
+745 silly addNameRange     '1.4.0-beta.6',
+745 silly addNameRange     '1.3.15',
+745 silly addNameRange     '1.4.0-rc.0',
+745 silly addNameRange     '1.4.0-rc.1',
+745 silly addNameRange     '1.4.0-rc.2',
+745 silly addNameRange     '1.4.0',
+745 silly addNameRange     '1.3.16',
+745 silly addNameRange     '1.4.1',
+745 silly addNameRange     '1.4.2',
+745 silly addNameRange     '1.3.17',
+745 silly addNameRange     '1.4.3',
+745 silly addNameRange     '1.4.4',
+745 silly addNameRange     '1.3.18',
+745 silly addNameRange     '1.4.5',
+745 silly addNameRange     '1.3.19',
+745 silly addNameRange     '1.4.6',
+745 silly addNameRange     '1.5.0-beta.0',
+745 silly addNameRange     '1.2.29',
+745 silly addNameRange     '1.3.20',
+745 silly addNameRange     '1.4.7',
+745 silly addNameRange     '1.5.0-beta.2',
+745 silly addNameRange     '1.4.8',
+745 silly addNameRange     '1.5.0-rc.0',
+745 silly addNameRange     '1.5.0-rc.1',
+745 silly addNameRange     '1.4.9',
+745 silly addNameRange     '1.5.0-rc.2',
+745 silly addNameRange     '1.5.0',
+745 silly addNameRange     '1.5.1',
+745 silly addNameRange     '1.4.10',
+745 silly addNameRange     '1.5.2',
+745 silly addNameRange     '1.5.3',
+745 silly addNameRange     '1.5.5',
+745 silly addNameRange     '1.4.11',
+745 silly addNameRange     '1.5.6' ] ]
+746 silly addNamed angular-route@1.5.6
+747 verbose addNamed "1.5.6" is a plain semver version for angular-route
+748 verbose afterAdd /home/dev10/.npm/babel-brunch/6.0.4/package/package.json written
+749 verbose afterAdd /home/dev10/.npm/angular-messages/1.5.6/package/package.json written
+750 verbose afterAdd /home/dev10/.npm/angular-sanitize/1.5.6/package/package.json written
+751 silly cache afterAdd static-jade-brunch@1.8.0
+752 verbose afterAdd /home/dev10/.npm/static-jade-brunch/1.8.0/package/package.json not in flight; writing
+753 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+754 silly cache afterAdd angular-aria@1.5.6
+755 verbose afterAdd /home/dev10/.npm/angular-aria/1.5.6/package/package.json not in flight; writing
+756 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+757 silly cache afterAdd auto-reload-brunch@2.7.1
+758 verbose afterAdd /home/dev10/.npm/auto-reload-brunch/2.7.1/package/package.json not in flight; writing
+759 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+760 silly cache afterAdd jade-brunch@2.0.0
+761 verbose afterAdd /home/dev10/.npm/jade-brunch/2.0.0/package/package.json not in flight; writing
+762 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+763 verbose afterAdd /home/dev10/.npm/clean-css-brunch/2.0.0/package/package.json written
+764 verbose afterAdd /home/dev10/.npm/css-brunch/2.6.1/package/package.json written
+765 verbose afterAdd /home/dev10/.npm/bower/1.7.9/package/package.json written
+766 silly cache afterAdd statik@1.4.6
+767 verbose afterAdd /home/dev10/.npm/statik/1.4.6/package/package.json not in flight; writing
+768 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+769 verbose afterAdd /home/dev10/.npm/static-jade-brunch/1.8.0/package/package.json written
+770 silly cache afterAdd sass-brunch@2.6.3
+771 verbose afterAdd /home/dev10/.npm/sass-brunch/2.6.3/package/package.json not in flight; writing
+772 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+773 silly cache afterAdd angular-route@1.5.6
+774 verbose afterAdd /home/dev10/.npm/angular-route/1.5.6/package/package.json not in flight; writing
+775 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+776 verbose afterAdd /home/dev10/.npm/angular-aria/1.5.6/package/package.json written
+777 verbose afterAdd /home/dev10/.npm/auto-reload-brunch/2.7.1/package/package.json written
+778 silly resolveWithNewModule brunch@2.8.0 checking installable status
+779 silly cache add args [ 'brunch@^2.8.0', null ]
+780 verbose cache add spec brunch@^2.8.0
+781 silly cache add parsed spec Result {
+781 silly cache add   raw: 'brunch@^2.8.0',
+781 silly cache add   scope: null,
+781 silly cache add   name: 'brunch',
+781 silly cache add   rawSpec: '^2.8.0',
+781 silly cache add   spec: '>=2.8.0 <3.0.0',
+781 silly cache add   type: 'range' }
+782 silly addNamed brunch@>=2.8.0 <3.0.0
+783 verbose addNamed ">=2.8.0 <3.0.0" is a valid semver range for brunch
+784 silly addNameRange { name: 'brunch', range: '>=2.8.0 <3.0.0', hasData: false }
+785 silly mapToRegistry name brunch
+786 silly mapToRegistry using default registry
+787 silly mapToRegistry registry https://registry.npmjs.org/
+788 silly mapToRegistry data Result {
+788 silly mapToRegistry   raw: 'brunch',
+788 silly mapToRegistry   scope: null,
+788 silly mapToRegistry   name: 'brunch',
+788 silly mapToRegistry   rawSpec: '',
+788 silly mapToRegistry   spec: 'latest',
+788 silly mapToRegistry   type: 'tag' }
+789 silly mapToRegistry uri https://registry.npmjs.org/brunch
+790 verbose addNameRange registry:https://registry.npmjs.org/brunch not in flight; fetching
+791 verbose afterAdd /home/dev10/.npm/jade-brunch/2.0.0/package/package.json written
+792 verbose afterAdd /home/dev10/.npm/statik/1.4.6/package/package.json written
+793 verbose afterAdd /home/dev10/.npm/angular-route/1.5.6/package/package.json written
+794 verbose afterAdd /home/dev10/.npm/sass-brunch/2.6.3/package/package.json written
+795 verbose get https://registry.npmjs.org/brunch not expired, no request
+796 silly addNameRange number 2 { name: 'brunch', range: '>=2.8.0 <3.0.0', hasData: true }
+797 silly addNameRange versions [ 'brunch',
+797 silly addNameRange   [ '0.0.1',
+797 silly addNameRange     '0.0.2',
+797 silly addNameRange     '0.0.3',
+797 silly addNameRange     '0.0.4',
+797 silly addNameRange     '0.0.5',
+797 silly addNameRange     '0.0.6',
+797 silly addNameRange     '0.0.7',
+797 silly addNameRange     '0.0.8',
+797 silly addNameRange     '0.1.0',
+797 silly addNameRange     '0.1.1',
+797 silly addNameRange     '0.1.3',
+797 silly addNameRange     '0.1.4',
+797 silly addNameRange     '0.1.5',
+797 silly addNameRange     '0.1.6',
+797 silly addNameRange     '0.1.7',
+797 silly addNameRange     '0.1.8',
+797 silly addNameRange     '0.1.9',
+797 silly addNameRange     '0.2.0',
+797 silly addNameRange     '0.2.1',
+797 silly addNameRange     '0.2.2',
+797 silly addNameRange     '0.2.3',
+797 silly addNameRange     '0.2.4',
+797 silly addNameRange     '0.2.6',
+797 silly addNameRange     '0.2.7',
+797 silly addNameRange     '0.2.8',
+797 silly addNameRange     '0.3.0',
+797 silly addNameRange     '0.3.1',
+797 silly addNameRange     '0.3.2',
+797 silly addNameRange     '0.3.4',
+797 silly addNameRange     '0.3.5',
+797 silly addNameRange     '0.3.6',
+797 silly addNameRange     '0.3.7',
+797 silly addNameRange     '0.4.0',
+797 silly addNameRange     '0.4.1',
+797 silly addNameRange     '0.4.2',
+797 silly addNameRange     '0.4.3',
+797 silly addNameRange     '0.4.4',
+797 silly addNameRange     '0.4.5',
+797 silly addNameRange     '0.5.1',
+797 silly addNameRange     '0.5.2',
+797 silly addNameRange     '0.5.3',
+797 silly addNameRange     '0.5.4',
+797 silly addNameRange     '0.5.5',
+797 silly addNameRange     '0.5.6',
+797 silly addNameRange     '0.6.0',
+797 silly addNameRange     '0.6.1',
+797 silly addNameRange     '0.6.2',
+797 silly addNameRange     '0.7.0',
+797 silly addNameRange     '0.7.1',
+797 silly addNameRange     '0.7.2',
+797 silly addNameRange     '0.7.3',
+797 silly addNameRange     '0.7.4',
+797 silly addNameRange     '0.8.0',
+797 silly addNameRange     '0.8.1',
+797 silly addNameRange     '0.9.0-beta1',
+797 silly addNameRange     '0.9.0',
+797 silly addNameRange     '0.9.1',
+797 silly addNameRange     '1.0.0',
+797 silly addNameRange     '1.0.1',
+797 silly addNameRange     '1.0.2',
+797 silly addNameRange     '1.0.3',
+797 silly addNameRange     '1.1.0',
+797 silly addNameRange     '1.1.1',
+797 silly addNameRange     '1.1.2',
+797 silly addNameRange     '1.2.0',
+797 silly addNameRange     '1.2.1',
+797 silly addNameRange     '1.2.2',
+797 silly addNameRange     '1.3.0',
+797 silly addNameRange     '1.3.1',
+797 silly addNameRange     '1.3.2',
+797 silly addNameRange     '1.3.3',
+797 silly addNameRange     '1.3.4',
+797 silly addNameRange     '1.4.0',
+797 silly addNameRange     '1.4.1',
+797 silly addNameRange     '1.4.2',
+797 silly addNameRange     '1.4.3',
+797 silly addNameRange     '1.4.4',
+797 silly addNameRange     '1.4.5',
+797 silly addNameRange     '1.5.0',
+797 silly addNameRange     '1.5.1',
+797 silly addNameRange     '1.5.2',
+797 silly addNameRange     '1.5.3',
+797 silly addNameRange     '1.5.4',
+797 silly addNameRange     '1.6.0',
+797 silly addNameRange     '1.6.1',
+797 silly addNameRange     '1.6.2',
+797 silly addNameRange     '1.6.3',
+797 silly addNameRange     '1.6.4',
+797 silly addNameRange     '1.6.5',
+797 silly addNameRange     '1.6.6',
+797 silly addNameRange     '1.6.7',
+797 silly addNameRange     '1.7.0',
+797 silly addNameRange     '1.7.1',
+797 silly addNameRange     '1.7.2',
+797 silly addNameRange     '1.7.3',
+797 silly addNameRange     '1.7.4',
+797 silly addNameRange     '1.7.5',
+797 silly addNameRange     '1.7.6',
+797 silly addNameRange     '1.7.7',
+797 silly addNameRange     '1.7.8',
+797 silly addNameRange     '1.7.9',
+797 silly addNameRange     '1.7.10',
+797 silly addNameRange     '1.7.12',
+797 silly addNameRange     '1.7.13',
+797 silly addNameRange     '1.7.14',
+797 silly addNameRange     '1.7.15',
+797 silly addNameRange     '1.7.16',
+797 silly addNameRange     '1.7.17',
+797 silly addNameRange     '1.7.18',
+797 silly addNameRange     '1.7.19',
+797 silly addNameRange     '1.7.20',
+797 silly addNameRange     '1.8.0',
+797 silly addNameRange     '1.8.1',
+797 silly addNameRange     '1.8.2',
+797 silly addNameRange     '1.8.3',
+797 silly addNameRange     '1.8.4',
+797 silly addNameRange     '1.8.5',
+797 silly addNameRange     '2.0.0',
+797 silly addNameRange     '2.0.1',
+797 silly addNameRange     '2.0.2',
+797 silly addNameRange     '2.0.3',
+797 silly addNameRange     '2.0.4',
+797 silly addNameRange     '2.1.0',
+797 silly addNameRange     '2.1.1',
+797 silly addNameRange     '2.1.2',
+797 silly addNameRange     '2.1.3',
+797 silly addNameRange     '2.2.0',
+797 silly addNameRange     '2.2.1',
+797 silly addNameRange     '2.2.2',
+797 silly addNameRange     '2.2.3',
+797 silly addNameRange     '2.3.0',
+797 silly addNameRange     '2.3.1',
+797 silly addNameRange     '2.3.2',
+797 silly addNameRange     '2.4.0',
+797 silly addNameRange     '2.4.1',
+797 silly addNameRange     '2.4.2',
+797 silly addNameRange     '2.5.0-pre',
+797 silly addNameRange     '2.5.0',
+797 silly addNameRange     '2.5.1',
+797 silly addNameRange     '2.5.2',
+797 silly addNameRange     '2.5.3',
+797 silly addNameRange     '2.6.0',
+797 silly addNameRange     '2.6.1',
+797 silly addNameRange     '2.6.2',
+797 silly addNameRange     '2.6.3',
+797 silly addNameRange     '2.6.4',
+797 silly addNameRange     '2.6.5',
+797 silly addNameRange     '2.6.6',
+797 silly addNameRange     '2.7.1',
+797 silly addNameRange     '2.7.2',
+797 silly addNameRange     '2.7.3',
+797 silly addNameRange     '2.7.4',
+797 silly addNameRange     '2.7.5',
+797 silly addNameRange     '2.7.6',
+797 silly addNameRange     '2.7.7',
+797 silly addNameRange     '2.8.0' ] ]
+798 silly addNamed brunch@2.8.0
+799 verbose addNamed "2.8.0" is a plain semver version for brunch
+800 silly cache afterAdd brunch@2.8.0
+801 verbose afterAdd /home/dev10/.npm/brunch/2.8.0/package/package.json not in flight; writing
+802 verbose correctMkdir /home/dev10/.npm correctMkdir not in flight; initializing
+803 verbose afterAdd /home/dev10/.npm/brunch/2.8.0/package/package.json written
+804 silly rollbackFailedOptional Starting
+805 silly rollbackFailedOptional Finishing
+806 silly runTopLevelLifecycles Starting
+807 silly runTopLevelLifecycles Finishing
+808 silly install printInstalled
+809 verbose stack Error: No compatible version found: underscore@^2.8.3
+809 verbose stack Valid install targets:
+809 verbose stack 1.8.3, 1.8.2, 1.8.1, 1.8.0, 1.7.0, 1.6.0, 1.5.2, 1.5.1, 1.5.0, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3
+809 verbose stack
+809 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:156:16)
+809 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+809 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:19:8
+809 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:168:7)
+809 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+809 verbose stack     at FSReqWrap.oncomplete (fs.js:82:15)
+810 verbose cwd /home/dev10/Projects/home_accounting_front
+811 error Linux 3.16.0-38-generic
+812 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+813 error node v5.10.1
+814 error npm  v3.8.3
+815 error No compatible version found: underscore@^2.8.3
+815 error Valid install targets:
+815 error 1.8.3, 1.8.2, 1.8.1, 1.8.0, 1.7.0, 1.6.0, 1.5.2, 1.5.1, 1.5.0, 1.4.4, 1.4.3, 1.4.2, 1.4.1, 1.4.0, 1.3.3, 1.3.2, 1.3.1, 1.3.0, 1.2.4, 1.2.3, 1.2.2, 1.2.1, 1.2.0, 1.1.7, 1.1.6, 1.1.5, 1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.4, 1.0.3
+816 error If you need help, you may report this error at:
+816 error     <https://github.com/npm/npm/issues>
+817 verbose exit [ 1, true ]
