@@ -34,7 +34,6 @@
     "javascript-brunch": "^2.0.0",
     "sass-brunch": "^2.6.3",
     "static-jade-brunch": "1.8.0",
-    "uglify-js-brunch": "^2.0.0",
     "ng-annotate-brunch": ">= 1.0 < 1.8",
     "uglify-js-brunch": ">= 1.0 < 1.8"
   }
