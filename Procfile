@@ -1,1 +1,1 @@
-web: node server.js
+web: statik --port $PORT public/
