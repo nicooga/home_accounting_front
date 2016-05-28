@@ -5,23 +5,21 @@ angular
 .run(factoryConfig)
 .factory("Tag", factoryConstructor);
 
-function factoryConfig($jsonapi) {
-  var schema = {
-    type: "tag",
-    attributes: {
-      name: { presence: true },
-    }
-  };
-
-  var restSource =
-    $jsonapi.sourceRest
-    .create("Rest source", "http://localhost:4000/api/tags");
-  var synchronizer = $jsonapi.synchronizerSimple.create([restSource]);
+function factoryConfig($jsonapi, ENV) {
+  var
+    schema = {
+      type: "tag",
+      attributes: {
+        name: { presence: true },
+      }
+    },
+    url = ENV.API_HOST + "/tags",
+    restSource = $jsonapi.sourceRest.create("Rest source", url),
+    synchronizer = $jsonapi.synchronizerSimple.create([restSource]);
 
   $jsonapi.addResource(schema, synchronizer);
 }
 
 function factoryConstructor($jsonapi) {
-  window.Tag = $jsonapi.getResource("tag");
   return $jsonapi.getResource("tag");
 }

@@ -14,6 +14,7 @@ angular.module("HomeAccountingFront", [
 ]);
 
 // Config
+require("config/env")
 require("config/material_theme")
 
 // Factories

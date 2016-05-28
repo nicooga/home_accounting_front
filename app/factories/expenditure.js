@@ -5,24 +5,23 @@ angular
 .run(factoryConfig)
 .factory("Expenditure", factoryConstructor);
 
-function factoryConfig($jsonapi) {
-  var schema = {
-    type: "expenditure",
-    attributes: {
-      desc: { presence: true },
-      amount: {
-        presence: true,
-        numericality: { greaterThan: 0 }
-      },
-      "expent-at": { presence: true },
-      "tag-names": {}
-    }
-  };
-
-  var restSource =
-    $jsonapi.sourceRest
-    .create("Rest source", "http://localhost:4000/api/expenditures");
-  var synchronizer = $jsonapi.synchronizerSimple.create([restSource]);
+function factoryConfig($jsonapi, ENV) {
+  var
+    schema = {
+      type: "expenditure",
+      attributes: {
+        desc: { presence: true },
+        amount: {
+          presence: true,
+          numericality: { greaterThan: 0 }
+        },
+        "expent-at": { presence: true },
+        "tag-names": {}
+      }
+    },
+    url = ENV.API_HOST + "/expenditures",
+    restSource = $jsonapi.sourceRest.create("Rest source", url),
+    synchronizer = $jsonapi.synchronizerSimple.create([restSource]);
 
   $jsonapi.addResource(schema, synchronizer);
 }
