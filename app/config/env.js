@@ -1,5 +1,6 @@
 "use strict";
 
+
 angular
 .module("HomeAccountingFront")
 .value("ENV", {
