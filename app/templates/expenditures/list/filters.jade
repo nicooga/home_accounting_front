@@ -6,7 +6,7 @@ md-content(layout-padding)
   )
     md-input-container
       label Desc
-      input(ng-model="haELF.form.desc")
+      input(ng-model="haELF.form.search")
 
     div(layout="row")
       md-input-container(flex)
@@ -24,14 +24,37 @@ md-content(layout-padding)
 
     div(layout-gt-md="row")
       div(flex)
-        label Min Date
-        md-datepicker(ng-model="haELF.form['date-gteq']")
+        md-datepicker(
+          ng-model="haELF.form['expent-at-gteq']"
+          md-placeholder="Min Date"
+        )
 
       div(flex)
-        label Max Date
-        md-datepicker(ng-model="haELF.form['date-lteq']")
+        md-datepicker(
+          ng-model="haELF.form['expent-at-lteq']"
+          md-min-date="haELF.form['expent-at-gteq']"
+          md-placeholder="Max Date"
+        )
 
-    md-chips(ng-model="haELF.form['tag-names']")
+    md-chips(
+      ng-model="haELF.form.$tags"
+      md-require-match="true"
+      md-autocomplete-snap
+    )
+      md-chip-template(ng-bind="$chip.data.attributes.name")
+
+      md-autocomplete(
+        md-search-text="haELF.tagSearchText"
+        md-items="item in haELF.getTags(haELF.tagSearchText)"
+        md-item-text="item.data.attributes.name"
+        md-no-cache="true"
+        md-delay="300"
+        placeholder="Tags"
+      )
+        span(
+          ng-bind="item.data.attributes.name"
+          md-highlight-text="haELF.tagSearchText"
+        )
 
     div(layout-gt-sm="row")
       md-button.md-primary.md-raised(flex type="submit") FILTER

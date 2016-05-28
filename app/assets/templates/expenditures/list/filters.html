@@ -3,7 +3,7 @@
   <form ng-submit="haELF.submit()" layout="column" layout-padding="layout-padding">
     <md-input-container>
       <label>Desc</label>
-      <input ng-model="haELF.form.desc"/>
+      <input ng-model="haELF.form.search"/>
     </md-input-container>
     <div layout="row">
       <md-input-container flex="flex">
@@ -17,15 +17,16 @@
     </div>
     <div layout-gt-md="row">
       <div flex="flex">
-        <label>Min Date</label>
-        <md-datepicker ng-model="haELF.form['date-gteq']"></md-datepicker>
+        <md-datepicker ng-model="haELF.form['expent-at-gteq']" md-placeholder="Min Date"></md-datepicker>
       </div>
       <div flex="flex">
-        <label>Max Date</label>
-        <md-datepicker ng-model="haELF.form['date-lteq']"></md-datepicker>
+        <md-datepicker ng-model="haELF.form['expent-at-lteq']" md-min-date="haELF.form['expent-at-gteq']" md-placeholder="Max Date"></md-datepicker>
       </div>
     </div>
-    <md-chips ng-model="haELF.form['tag-names']"></md-chips>
+    <md-chips ng-model="haELF.form.$tags" md-require-match="true" md-autocomplete-snap="md-autocomplete-snap">
+      <md-chip-template ng-bind="$chip.data.attributes.name"></md-chip-template>
+      <md-autocomplete md-search-text="haELF.tagSearchText" md-items="item in haELF.getTags(haELF.tagSearchText)" md-item-text="item.data.attributes.name" md-no-cache="true" md-delay="300" placeholder="Tags"><span ng-bind="item.data.attributes.name" md-highlight-text="haELF.tagSearchText"></span></md-autocomplete>
+    </md-chips>
     <div layout-gt-sm="row">
       <md-button flex="flex" type="submit" class="md-primary md-raised">FILTER</md-button>
       <md-button flex="flex" ng-click="haELF.reset()">CLEAR</md-button>

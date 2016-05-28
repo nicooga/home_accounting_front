@@ -18,6 +18,7 @@ require("config/material_theme")
 
 // Factories
 require("factories/expenditure");
+require("factories/tag");
 
 // Directives
 require("directives/utc_parser")

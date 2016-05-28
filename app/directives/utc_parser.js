@@ -12,7 +12,7 @@ function directiveConstructor() {
   };
 
   function link(_, __, ___, ngModel) {
-    ngModel.$parsers.unshift((val) => moment.utc(val).format());
+    //ngModel.$parsers.unshift((val) => moment.utc(val).format());
     ngModel.$formatters.unshift((val) => val && moment(val).toDate());
   }
 }

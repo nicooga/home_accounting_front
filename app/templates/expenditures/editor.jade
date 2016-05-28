@@ -28,7 +28,22 @@ form.md-inline-form(
 
     md-input-container
       label Tags
-      md-chips(ng-model="haEE.expenditure.form.data.attributes['tag-names']")
+      md-chips(
+        ng-model="haEE.expenditure.form.data.attributes['tag-names']"
+        md-transform-chip="$chip.data.attributes.name"
+      )
+        md-autocomplete(
+          md-search-text="haEE.tagSearchText"
+          md-items="item in haEE.getTags(haEE.tagSearchText)"
+          md-item-text="item.data.attributes.name"
+          md-no-cache="true"
+          md-delay="300"
+          placeholder="Tags"
+        )
+          span(
+            ng-bind="item.data.attributes.name"
+            md-highlight-text="haELF.tagSearchText"
+          )
 
     div(layout="row")
       button.md-button.md-primary.md-raised.md-block(
