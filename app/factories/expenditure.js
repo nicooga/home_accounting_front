@@ -19,7 +19,7 @@ function factoryConfig($jsonapi, ENV) {
         "tag-names": {}
       }
     },
-    url = ENV.API_HOST + "/expenditures",
+    url = ENV.API_URL + "/expenditures",
     restSource = $jsonapi.sourceRest.create("Rest source", url),
     synchronizer = $jsonapi.synchronizerSimple.create([restSource]);
 
